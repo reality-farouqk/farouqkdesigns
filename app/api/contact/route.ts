@@ -83,7 +83,6 @@ export async function POST(req: Request) {
   try {
     const { name, email, message, website } = await req.json();
 
-    // Honeypot check
     if (website) {
       return NextResponse.json(
         { error: "Spam detected!" },
@@ -108,6 +107,7 @@ export async function POST(req: Request) {
 
     const mailOptions = {
       from: email,
+      replyTo: email,
       to: "umar@farouqkdesigns.com",
       subject: `New website message from ${name}`,
       text: message,

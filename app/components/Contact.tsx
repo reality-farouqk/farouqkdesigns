@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(''); // State for error message
-  const [website, setWebsite] = useState(''); // Subtle honeypot field
+  const [website, setWebsite] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
       name,
       email,
       message,
-      website, // Include honeypot field in form data
+      website,
     };
 
     try {
