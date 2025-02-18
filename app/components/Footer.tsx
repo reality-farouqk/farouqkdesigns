@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div className="space-y-10">
             <p className="text-5xl lg:text-6xl font-bold capitalize">say me hello</p>
             <p className="text-center text-3xl lg:text-5xl font-normal text-wrap underline lowercase">
-              <a href="mailto:umar@farouqkdesigns.com">
+              <a href="mailto:umar@farouqkdesigns.com" className="wrap overflow-x-hidden">
                 umar@farouqkdesigns.com
               </a>
             </p>
