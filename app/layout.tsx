@@ -41,7 +41,7 @@ export default function RootLayout({
       <body className={`${NeueMachina.className} min-h-screen px-5 md:px-12`}>
         <SpeedInsights />
         <ClientRouter>
-          <main className="main max-w-screen-xl mx-auto mt-5 lg:mt-8 border-x border-gray-400">{children}</main>
+          <main className="main max-w-screen-xl mx-auto my-5 lg:my-6 border-x border-gray-400">{children}</main>
         </ClientRouter>
       </body>
     </html>

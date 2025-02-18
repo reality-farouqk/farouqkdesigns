@@ -8,7 +8,7 @@ const CaseStudy: React.FC = () => {
     {
       id: 1,
       title: "TCA(Now seventh bear)",
-      caseStudyLink: "/",
+      caseStudyLink: "https://seventhbear.com/",
       description:
         "Redesigned their landing page proactively, reached out, and they instantly loved it—turning a bold move into a real impact",
       image: "/TCAs Home Page.png",
@@ -16,7 +16,7 @@ const CaseStudy: React.FC = () => {
     {
       id: 2,
       title: "Child Care",
-      caseStudyLink: "/",
+      caseStudyLink: "https://mailafiyaumarsulai.wixstudio.com/-childcare",
       description:
         "Designed a warm, inviting Wix demo for a child care center—showcasing a nurturing space for infants and children.",
       image: "/childscare.png",
@@ -24,14 +24,14 @@ const CaseStudy: React.FC = () => {
     {
       id: 3,
       title: "Pixel Forge",
-      caseStudyLink: "/",
+      caseStudyLink: "https://mailafiyaumarsulai.wixstudio.io/pixelforge",
       description:
         "A Wix demo showcasing a sleek branding agency landing page—crafted to highlight how businesses can elevate their identity.",
       image: "/Pixelforge.png",
     },
     {
       id: 4,
-      title: "RS Guttering",
+      title: "https://mailafiyaumarsulai.wixstudio.com/rsguttering",
       caseStudyLink: "/",
       description:
         "Revamped a roofing business landing page—giving it a fresh, modern look that aligns with their brand and goals. ",
@@ -56,7 +56,7 @@ const CaseStudy: React.FC = () => {
   ];
 
   return (
-    <section className="text-[#2b2b2b] bg-white px-5 py-24 md:py-24 md:px-12 border flex flex-col items-center">
+    <section id="casestudy" className="text-[#2b2b2b] bg-white px-5 py-24 md:py-24 md:px-12 border flex flex-col items-center">
       <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-center">
         Case Studies
       </h1>
@@ -73,7 +73,7 @@ const CaseStudy: React.FC = () => {
               alt={caseStudy.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-[#F1F1F1] text-[#2b2b2b] flex flex-col justify-center items-center p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
+            <div className="absolute inset-0 bg-[#F1F1F1] text-[#2b2b2b] flex flex-col justify-center items-start p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
               <div className="text-sm underline font-light mb-2">
                 <a
                   href={caseStudy.caseStudyLink}

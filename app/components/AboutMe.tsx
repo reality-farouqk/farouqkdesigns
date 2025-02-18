@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const AboutMe: React.FC = () => {
   return (
-    <section className="text-[#2b2b2b] bg-cover bg-center px-5 py-24 md:px-12" style={{ backgroundImage: 'url(/Hero&AboutSection-bg.png)' }}>
+    <section id="about" className="text-[#2b2b2b] bg-cover bg-center px-5 py-24 md:px-12" style={{ backgroundImage: 'url(/Hero&AboutSection-bg.png)' }}>
       <div className="flex flex-col-reverse lg:flex-row items-start gap-5">
         <div className="w-full lg:w-1/2 p-4 md:p-8">
           <h1 className="text-4xl lg:text-6xl font-bold mb-5">Who am I? <br/>Let&apos;s find out!</h1>
