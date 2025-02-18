@@ -7,13 +7,11 @@ const Footer: React.FC = () => {
     <footer className="text-white">
       <div className="bg-[#060D0D] p-5 md:p-12">
         <div className="space-y-16">
-          <div className="space-y-10">
-            <p className="text-5xl lg:text-6xl font-bold capitalize">say me hello</p>
-            <p className="text-center text-3xl lg:text-5xl font-normal text-wrap underline lowercase">
-              <a href="mailto:umar@farouqkdesigns.com" className="wrap overflow-x-hidden">
+          <div className="space-y-10 w-full">
+            <p className="text-4xl md:text-5xl lg:text-6xl font-bold capitalize">say me hello</p>
+            <a href="mailto:umar@farouqkdesigns.com" className="block text-left md:text-center text-3xl lg:text-5xl font-normal text-wrap underline lowercase overflow-x-hidden">
                 umar@farouqkdesigns.com
-              </a>
-            </p>
+            </a>
           </div>
           <div className="flex justify-center space-x-5 md:space-x-10 lg:space-x-20">
             <a
