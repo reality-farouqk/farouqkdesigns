@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #CCF8FF;
+  --foreground: #ffffff;
+  --header-bg-color: #002C33;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'PP Neue Machina', Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: var(--header-bg-color);
+}
+

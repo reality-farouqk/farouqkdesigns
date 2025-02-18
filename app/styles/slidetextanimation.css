@@ -1,0 +1,27 @@
+.slider-container {
+  background-color: #060d0d;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slider {
+  display: inline-block;
+  animation: slide 80s linear infinite;
+}
+
+.slider-text {
+  display: inline-block;
+  font-size: 45px;
+  color: white;
+  padding: 0 10px;
+  text-transform: uppercase;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

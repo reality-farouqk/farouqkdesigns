@@ -1,0 +1,1569 @@
+1	Access	Urgency 🚨
+2	Access now	Urgency 🚨
+3	Act	Urgency 🚨
+4	Act immediately	Urgency 🚨
+5	Act now	Urgency 🚨
+6	Act now!	Urgency 🚨
+7	Action	Urgency 🚨
+8	Action required	Urgency 🚨
+9	Apply here	Urgency 🚨
+10	Apply now	Urgency 🚨
+11	Apply now!	Urgency 🚨
+12	Apply online	Urgency 🚨
+13	Become a member	Urgency 🚨
+14	Before it's too late	Urgency 🚨
+15	Being a member	Urgency 🚨
+16	Buy	Urgency 🚨
+17	Buy direct	Urgency 🚨
+18	Buy now	Urgency 🚨
+19	Buy today	Urgency 🚨
+20	Call	Urgency 🚨
+21	Call free	Urgency 🚨
+22	Call free/now	Urgency 🚨
+23	Call me	Urgency 🚨
+24	Call now	Urgency 🚨
+25	Call now!	Urgency 🚨
+26	Can we have a minute of your time?	Urgency 🚨
+27	Cancel now	Urgency 🚨
+28	Cancellation required	Urgency 🚨
+29	Claim now	Urgency 🚨
+30	Click	Urgency 🚨
+31	Click below	Urgency 🚨
+32	Click here	Urgency 🚨
+33	Click me to download	Urgency 🚨
+34	Click now	Urgency 🚨
+35	Click this link	Urgency 🚨
+36	Click to get	Urgency 🚨
+37	Click to remove	Urgency 🚨
+38	Contact us immediately	Urgency 🚨
+39	Deal ending soon	Urgency 🚨
+40	Do it now	Urgency 🚨
+41	Do it today	Urgency 🚨
+42	Don't delete	Urgency 🚨
+43	Don't hesitate	Urgency 🚨
+44	Don't waste time	Urgency 🚨
+45	Don't delete	Urgency 🚨
+46	Exclusive deal	Urgency 🚨
+47	Expire	Urgency 🚨
+48	Expires today	Urgency 🚨
+49	Final call	Urgency 🚨
+50	For instant access	Urgency 🚨
+51	For Only	Urgency 🚨
+52	For you	Urgency 🚨
+53	Friday before [holiday]	Urgency 🚨
+54	Get it away	Urgency 🚨
+55	Get it now	Urgency 🚨
+56	Get now	Urgency 🚨
+57	Get paid	Urgency 🚨
+58	Get started	Urgency 🚨
+59	Get started now	Urgency 🚨
+60	Great offer	Urgency 🚨
+61	Hurry up	Urgency 🚨
+62	Immediately	Urgency 🚨
+63	Info you requested	Urgency 🚨
+64	Information you requested	Urgency 🚨
+65	Instant	Urgency 🚨
+66	Limited time	Urgency 🚨
+67	New customers only	Urgency 🚨
+68	Now	Urgency 🚨
+69	Now only	Urgency 🚨
+70	Offer expires	Urgency 🚨
+71	Once in lifetime	Urgency 🚨
+72	Only	Urgency 🚨
+73	Order now	Urgency 🚨
+74	Order today	Urgency 🚨
+75	Please read	Urgency 🚨
+76	Purchase now	Urgency 🚨
+77	Sign up free	Urgency 🚨
+78	Sign up free today	Urgency 🚨
+79	Supplies are limited	Urgency 🚨
+80	Take action	Urgency 🚨
+81	Take action now	Urgency 🚨
+82	This won't last	Urgency 🚨
+83	Time limited	Urgency 🚨
+84	Today	Urgency 🚨
+85	Top urgent	Urgency 🚨
+86	Trial	Urgency 🚨
+87	Urgent	Urgency 🚨
+88	What are you waiting for?	Urgency 🚨
+89	While supplies last	Urgency 🚨
+90	You are a winner	Urgency 🚨
+91	0 down	Shady 🔞
+92	All	Shady 🔞
+93	All natural	Shady 🔞
+94	All natural/new	Shady 🔞
+95	All new	Shady 🔞
+96	All-natural	Shady 🔞
+97	All-new	Shady 🔞
+98	Allowance	Shady 🔞
+99	As seen on	Shady 🔞
+100	As seen on Oprah	Shady 🔞
+101	At no cost	Shady 🔞
+102	Auto email removal	Shady 🔞
+103	Avoice bankruptcy	Shady 🔞
+104	Avoid	Shady 🔞
+105	Beneficial offer	Shady 🔞
+106	Beneficiary	Shady 🔞
+107	Bill 1618	Shady 🔞
+108	Brand new pager	Shady 🔞
+109	Bulk email	Shady 🔞
+110	Buying judgements	Shady 🔞
+111	Buying judgments	Shady 🔞
+112	Cable converter	Shady 🔞
+113	Calling creditors	Shady 🔞
+114	Can you help us?	Shady 🔞
+115	Cancel at any time	Shady 🔞
+116	Cannot be combined	Shady 🔞
+117	Celebrity	Shady 🔞
+118	Cell phone cancer scam	Shady 🔞
+119	Certified	Shady 🔞
+120	Chance	Shady 🔞
+121	Cheap	Shady 🔞
+122	Cheap meds	Shady 🔞
+123	Cialis	Shady 🔞
+124	Claims	Shady 🔞
+125	Claims not to be selling anything	Shady 🔞
+126	Claims to be in accordance with some spam law	Shady 🔞
+127	Claims to be legal	Shady 🔞
+128	Clearance	Shady 🔞
+129	Collect	Shady 🔞
+130	Collect child support	Shady 🔞
+131	Compare	Shady 🔞
+132	Compare now	Shady 🔞
+133	Compare online	Shady 🔞
+134	Compare rates	Shady 🔞
+135	Compete for your business	Shady 🔞
+136	Confidentiality	Shady 🔞
+137	Congratulations	Shady 🔞
+138	Consolidate debt and credit	Shady 🔞
+139	Consolidate your debt	Shady 🔞
+140	Copy accurately	Shady 🔞
+141	Copy DVDs	Shady 🔞
+142	COVID	Shady 🔞
+143	Cures	Shady 🔞
+144	Cures baldness	Shady 🔞
+145	Diagnostic	Shady 🔞
+146	DIAGNOSTICS	Shady 🔞
+147	Diet	Shady 🔞
+148	Dig up dirt on friends	Shady 🔞
+149	Direct email	Shady 🔞
+150	Direct marketing	Shady 🔞
+151	Eliminate debt	Shady 🔞
+152	Explode your business	Shady 🔞
+153	Fast viagra delivery	Shady 🔞
+154	Finance	Shady 🔞
+155	Financial	Shady 🔞
+156	Financial advice	Shady 🔞
+157	Financial independence	Shady 🔞
+158	Financially independent	Shady 🔞
+159	For new customers only	Shady 🔞
+160	Foreclosure	Shady 🔞
+161	Free	Shady 🔞
+162	Free access/money/gift	Shady 🔞
+163	Free bonus	Shady 🔞
+164	Free cell phone	Shady 🔞
+165	Free DVD	Shady 🔞
+166	Free grant money	Shady 🔞
+167	Free information	Shady 🔞
+168	Free installation	Shady 🔞
+169	Free Instant	Shady 🔞
+170	Free iPhone	Shady 🔞
+171	Free laptop	Shady 🔞
+172	Free leads	Shady 🔞
+173	Free Macbook	Shady 🔞
+174	Free offer	Shady 🔞
+175	Free priority mail	Shady 🔞
+176	Free sample	Shady 🔞
+177	Free website	Shady 🔞
+178	Free!	Shady 🔞
+179	Get	Shady 🔞
+180	Gift card	Shady 🔞
+181	Gift certificate	Shady 🔞
+182	Gift included	Shady 🔞
+183	Give it away	Shady 🔞
+184	Giving away	Shady 🔞
+185	Giving it away	Shady 🔞
+186	Gold	Shady 🔞
+187	Great	Shady 🔞
+188	Great deal	Shady 🔞
+189	Greetings of the day	Shady 🔞
+190	Growth hormone	Shady 🔞
+191	Guarantee	Shady 🔞
+192	Guaranteed deposit	Shady 🔞
+193	Guaranteed income	Shady 🔞
+194	Guaranteed payment	Shady 🔞
+195	Have you been turned down?	Shady 🔞
+196	Hello (with no name included)	Shady 🔞
+197	Hidden charges	Shady 🔞
+198	Hidden costs	Shady 🔞
+199	Hidden fees	Shady 🔞
+200	High score	Shady 🔞
+201	Home based business	Shady 🔞
+202	Home mortgage	Shady 🔞
+203	Human	Shady 🔞
+204	Human growth hormone	Shady 🔞
+205	If only it were that easy	Shady 🔞
+206	Important information	Shady 🔞
+207	Important notification	Shady 🔞
+208	Instant weight loss	Shady 🔞
+209	Insurance Lose weight	Shady 🔞
+210	Internet marketing	Shady 🔞
+211	Investment decision	Shady 🔞
+212	Invoice	Shady 🔞
+213	It's effective	Shady 🔞
+214	Job alert	Shady 🔞
+215	Junk	Shady 🔞
+216	Lambo	Shady 🔞
+217	Laser printer	Shady 🔞
+218	Last Day	Shady 🔞
+219	Legal	Shady 🔞
+220	Legal notice	Shady 🔞
+221	Life	Shady 🔞
+222	Life insurance	Shady 🔞
+223	Lifetime access	Shady 🔞
+224	Lifetime deal	Shady 🔞
+225	Limited	Shady 🔞
+226	Limited amount	Shady 🔞
+227	Limited number	Shady 🔞
+228	Limited offer	Shady 🔞
+229	Limited supply	Shady 🔞
+230	Limited time offer	Shady 🔞
+231	Limited time only	Shady 🔞
+232	Loan	Shady 🔞
+233	Long distance phone number	Shady 🔞
+234	Long distance phone offer	Shady 🔞
+235	Lose weight	Shady 🔞
+236	Lose weight fast	Shady 🔞
+237	Lose weight spam	Shady 🔞
+238	Lottery	Shady 🔞
+239	Lower interest rate	Shady 🔞
+240	Lower interest rates	Shady 🔞
+241	Lower monthly payment	Shady 🔞
+242	Lower your mortgage rate	Shady 🔞
+243	Lowest insurance rates	Shady 🔞
+244	Lowest interest rate	Shady 🔞
+245	Lowest rate	Shady 🔞
+246	Lowest rates	Shady 🔞
+247	Luxury	Shady 🔞
+248	Luxury car	Shady 🔞
+249	Mail in order form	Shady 🔞
+250	Main in order form	Shady 🔞
+251	Mark this as not junk	Shady 🔞
+252	Mass email	Shady 🔞
+253	Medical	Shady 🔞
+254	Medicine	Shady 🔞
+255	Meet girls	Shady 🔞
+256	Meet me	Shady 🔞
+257	Meet singles	Shady 🔞
+258	Meet women	Shady 🔞
+259	Member	Shady 🔞
+260	Member stuff	Shady 🔞
+261	Message contains disclaimer	Shady 🔞
+262	Message from	Shady 🔞
+263	Millionaire	Shady 🔞
+264	Millions	Shady 🔞
+265	MLM	Shady 🔞
+266	Multi-level marketing	Shady 🔞
+267	Name	Shady 🔞
+268	Near you	Shady 🔞
+269	Never before	Shady 🔞
+270	New	Shady 🔞
+271	New domain extensions	Shady 🔞
+272	Nigerian	Shady 🔞
+273	No age restrictions	Shady 🔞
+274	No catch	Shady 🔞
+275	No claim forms	Shady 🔞
+276	No cost	Shady 🔞
+277	No credit check	Shady 🔞
+278	No credit experience	Shady 🔞
+279	No deposit required	Shady 🔞
+280	No disappointment	Shady 🔞
+281	No experience	Shady 🔞
+282	No fees	Shady 🔞
+283	No gimmick	Shady 🔞
+284	No hidden	Shady 🔞
+285	No hidden costs	Shady 🔞
+286	No hidden fees	Shady 🔞
+287	No hidden сosts	Shady 🔞
+288	No interest	Shady 🔞
+289	No interests	Shady 🔞
+290	No inventory	Shady 🔞
+291	No investment	Shady 🔞
+292	No investment required	Shady 🔞
+293	No medical exams	Shady 🔞
+294	No middleman	Shady 🔞
+295	No obligation	Shady 🔞
+296	No payment required	Shady 🔞
+297	No purchase necessary	Shady 🔞
+298	No questions asked	Shady 🔞
+299	No selling	Shady 🔞
+300	No strings attached	Shady 🔞
+301	No-obligation	Shady 🔞
+302	Nominated bank account	Shady 🔞
+303	Not intended	Shady 🔞
+304	Not junk	Shady 🔞
+305	Not scam	Shady 🔞
+306	Not spam	Shady 🔞
+307	Notspam	Shady 🔞
+308	Number 1	Shady 🔞
+309	Obligation	Shady 🔞
+310	Off	Shady 🔞
+311	Off everything	Shady 🔞
+312	Off shore	Shady 🔞
+313	Offer extended	Shady 🔞
+314	Offers	Shady 🔞
+315	Offshore	Shady 🔞
+316	One hundred percent	Shady 🔞
+317	One-time	Shady 🔞
+318	Online biz opportunity	Shady 🔞
+319	Online degree	Shady 🔞
+320	Online income	Shady 🔞
+321	Online job	Shady 🔞
+322	Open	Shady 🔞
+323	Opportunity	Shady 🔞
+324	Opt-in	Shady 🔞
+325	Order	Shady 🔞
+326	Order shipped by	Shady 🔞
+327	Order status	Shady 🔞
+328	Orders shipped by	Shady 🔞
+329	Orders shipped by shopper	Shady 🔞
+330	Outstanding value	Shady 🔞
+331	Outstanding values	Shady 🔞
+332	Password	Shady 🔞
+333	Passwords	Shady 🔞
+334	Pay your bills	Shady 🔞
+335	Per day/per week/per year	Shady 🔞
+336	Per month	Shady 🔞
+337	Perfect	Shady 🔞
+338	Performance	Shady 🔞
+339	Phone	Shady 🔞
+340	Please	Shady 🔞
+341	Please open	Shady 🔞
+342	Presently	Shady 🔞
+343	Print form signature	Shady 🔞
+344	Print from signature	Shady 🔞
+345	Print out and fax	Shady 🔞
+346	Priority mail	Shady 🔞
+347	Privately owned funds	Shady 🔞
+348	Prizes	Shady 🔞
+349	Problem with shipping	Shady 🔞
+350	Problem with your order	Shady 🔞
+351	Produced and sent out	Shady 🔞
+352	Profit	Shady 🔞
+353	Promise you	Shady 🔞
+354	Purchase	Shady 🔞
+355	Pure Profits	Shady 🔞
+356	Quotes	Shady 🔞
+357	Rate	Shady 🔞
+358	Real thing	Shady 🔞
+359	Rebate	Shady 🔞
+360	Reduce debt	Shady 🔞
+361	Refinance home	Shady 🔞
+362	Refinanced home	Shady 🔞
+363	Refund	Shady 🔞
+364	Regarding	Shady 🔞
+365	Removal instructions	Shady 🔞
+366	Removes	Shady 🔞
+367	Removes wrinkles	Shady 🔞
+368	Replica watches	Shady 🔞
+369	Request	Shady 🔞
+370	Request now	Shady 🔞
+371	Request today	Shady 🔞
+372	Requires initial investment	Shady 🔞
+373	Requires investment	Shady 🔞
+374	Reverses aging	Shady 🔞
+375	Risk free	Shady 🔞
+376	Rolex	Shady 🔞
+377	Round the world	Shady 🔞
+378	S 1618	Shady 🔞
+379	Safeguard notice	Shady 🔞
+380	Sale	Shady 🔞
+381	Sales	Shady 🔞
+382	Save	Shady 🔞
+383	Save $, Save €	Shady 🔞
+384	Save big	Shady 🔞
+385	Save big month	Shady 🔞
+386	Save money	Shady 🔞
+387	Save now	Shady 🔞
+388	Score with babes	Shady 🔞
+389	Search engine optimisation	Shady 🔞
+390	Section 301	Shady 🔞
+391	See for yourself	Shady 🔞
+392	Seen on	Shady 🔞
+393	Serious	Shady 🔞
+394	Serious case	Shady 🔞
+395	Serious offer	Shady 🔞
+396	Serious only	Shady 🔞
+397	Sex	Shady 🔞
+398	Shop now	Shady 🔞
+399	Shopper	Shady 🔞
+400	Shopping spree	Shady 🔞
+401	Snoring	Shady 🔞
+402	Social security number	Shady 🔞
+403	Soon	Shady 🔞
+404	Spam	Shady 🔞
+405	Spam free	Shady 🔞
+406	Special deal	Shady 🔞
+407	Special discount	Shady 🔞
+408	Special for you	Shady 🔞
+409	Special offer	Shady 🔞
+410	Stainless steel	Shady 🔞
+411	Stock alert	Shady 🔞
+412	Stock disclaimer statement	Shady 🔞
+413	Stock pick	Shady 🔞
+414	Stocks/stock pick/stock alert	Shady 🔞
+415	Stop calling me	Shady 🔞
+416	Stop emailing me	Shady 🔞
+417	Stop further distribution	Shady 🔞
+418	Stop snoring	Shady 🔞
+419	Strong buy	Shady 🔞
+420	Stuff on sale	Shady 🔞
+421	Subject to	Shady 🔞
+422	Subject to cash	Shady 🔞
+423	Subscribe	Shady 🔞
+424	Subscribe for free	Shady 🔞
+425	Subscribe now	Shady 🔞
+426	Super promo	Shady 🔞
+427	Supplies	Shady 🔞
+428	Tack action now	Shady 🔞
+429	Talks about hidden charges	Shady 🔞
+430	Talks about prizes	Shady 🔞
+431	Tells you it's an ad	Shady 🔞
+432	Terms	Shady 🔞
+433	The best rates	Shady 🔞
+434	The email asks for a credit card	Shady 🔞
+435	The following form	Shady 🔞
+436	They make a claim or claims that they're in accordance with spam law	Shady 🔞
+437	They try to keep your money no refund	Shady 🔞
+438	They're just giving it away	Shady 🔞
+439	This isn't junk	Shady 🔞
+440	This isn't spam	Shady 🔞
+441	This isn't a scam	Shady 🔞
+442	This isn't junk	Shady 🔞
+443	This isn't spam	Shady 🔞
+444	Timeshare	Shady 🔞
+445	Timeshare offers	Shady 🔞
+446	Traffic	Shady 🔞
+447	Trial unlimited	Shady 🔞
+448	U.S. dollars	Shady 🔞
+449	Undisclosed	Shady 🔞
+450	Undisclosed recipient	Shady 🔞
+451	University diplomas	Shady 🔞
+452	Unsecured credit	Shady 🔞
+453	Unsecured debt	Shady 🔞
+454	Unsolicited	Shady 🔞
+455	Unsubscribe	Shady 🔞
+456	Urgent response	Shady 🔞
+457	US Dollars / Euros	Shady 🔞
+458	Vacation	Shady 🔞
+459	Vacation offers	Shady 🔞
+460	Valium	Shady 🔞
+461	Viagra	Shady 🔞
+462	Vicodin	Shady 🔞
+463	VIP	Shady 🔞
+464	Visit our website	Shady 🔞
+465	Wants credit card	Shady 🔞
+466	Warranty expired	Shady 🔞
+467	We hate spam	Shady 🔞
+468	We honor all	Shady 🔞
+469	Website visitors	Shady 🔞
+470	Weekend getaway	Shady 🔞
+471	Weight loss	Shady 🔞
+472	What's keeping you?	Shady 🔞
+473	While available	Shady 🔞
+474	While in stock	Shady 🔞
+475	While stocks last	Shady 🔞
+476	While you sleep	Shady 🔞
+477	Who really wins?	Shady 🔞
+478	Win	Shady 🔞
+479	Winner	Shady 🔞
+480	Winning	Shady 🔞
+481	Won	Shady 🔞
+482	Xanax	Shady 🔞
+483	XXX	Shady 🔞
+484	You have been chosen	Shady 🔞
+485	You have been selected	Shady 🔞
+486	Your chance	Shady 🔞
+487	Your status	Shady 🔞
+488	Zero chance	Shady 🔞
+489	Zero percent	Shady 🔞
+490	Zero risk	Shady 🔞
+491	#1	Overpromise 🤩
+492	%	Overpromise 🤩
+493	% free	Overpromise 🤩
+494	% Satisfied	Overpromise 🤩
+495	0%	Overpromise 🤩
+496	0% risk	Overpromise 🤩
+497	100%	Overpromise 🤩
+498	100% free	Overpromise 🤩
+499	100% more	Overpromise 🤩
+500	100% off	Overpromise 🤩
+501	100% satisfied	Overpromise 🤩
+502	99.90%	Overpromise 🤩
+503	99%	Overpromise 🤩
+504	Access for free	Overpromise 🤩
+505	Additional income	Overpromise 🤩
+506	Amazed	Overpromise 🤩
+507	Amazing	Overpromise 🤩
+508	Amazing offer	Overpromise 🤩
+509	Amazing stuff	Overpromise 🤩
+510	Be amazed	Overpromise 🤩
+511	Be surprised	Overpromise 🤩
+512	Be your own boss	Overpromise 🤩
+513	Believe me	Overpromise 🤩
+514	Best bargain	Overpromise 🤩
+515	Best deal	Overpromise 🤩
+516	Best offer	Overpromise 🤩
+517	Best price	Overpromise 🤩
+518	Best rates	Overpromise 🤩
+519	Big bucks	Overpromise 🤩
+520	Bonus	Overpromise 🤩
+521	Boss	Overpromise 🤩
+522	Can't live without	Overpromise 🤩
+523	Cancel	Overpromise 🤩
+524	Consolidate debt	Overpromise 🤩
+525	Double your cash	Overpromise 🤩
+526	Double your income	Overpromise 🤩
+527	Drastically reduced	Overpromise 🤩
+528	Earn extra cash	Overpromise 🤩
+529	Earn money	Overpromise 🤩
+530	Eliminate bad credit	Overpromise 🤩
+531	Expect to earn	Overpromise 🤩
+532	Extra	Overpromise 🤩
+533	Extra cash	Overpromise 🤩
+534	Extra income	Overpromise 🤩
+535	Fantastic	Overpromise 🤩
+536	Fantastic deal	Overpromise 🤩
+537	Fantastic offer	Overpromise 🤩
+538	FAST	Overpromise 🤩
+539	Fast cash	Overpromise 🤩
+540	Financial freedom	Overpromise 🤩
+541	Free access	Overpromise 🤩
+542	Free consultation	Overpromise 🤩
+543	Free gift	Overpromise 🤩
+544	Free hosting	Overpromise 🤩
+545	Free info	Overpromise 🤩
+546	Free investment	Overpromise 🤩
+547	Free membership	Overpromise 🤩
+548	Free money	Overpromise 🤩
+549	Free preview	Overpromise 🤩
+550	Free quote	Overpromise 🤩
+551	Free trial	Overpromise 🤩
+552	Full refund	Overpromise 🤩
+553	Get out of debt	Overpromise 🤩
+554	Giveaway	Overpromise 🤩
+555	Guaranteed	Overpromise 🤩
+556	Increase sales	Overpromise 🤩
+557	Increase traffic	Overpromise 🤩
+558	Incredible deal	Overpromise 🤩
+559	Join billions	Overpromise 🤩
+560	Join millions	Overpromise 🤩
+561	Join millions of Americans	Overpromise 🤩
+562	Join thousands	Overpromise 🤩
+563	Lower rates	Overpromise 🤩
+564	Lowest price	Overpromise 🤩
+565	Make money	Overpromise 🤩
+566	Million	Overpromise 🤩
+567	Million dollars	Overpromise 🤩
+568	Miracle	Overpromise 🤩
+569	Money back	Overpromise 🤩
+570	Month trial offer	Overpromise 🤩
+571	More Internet Traffic	Overpromise 🤩
+572	Number one	Overpromise 🤩
+573	Once in a lifetime	Overpromise 🤩
+574	One hundred percent guaranteed	Overpromise 🤩
+575	One time	Overpromise 🤩
+576	Pennies a day	Overpromise 🤩
+577	Potential earnings	Overpromise 🤩
+578	Prize	Overpromise 🤩
+579	Promise	Overpromise 🤩
+580	Pure profit	Overpromise 🤩
+581	Risk-free	Overpromise 🤩
+582	Satisfaction guaranteed	Overpromise 🤩
+583	Save big money	Overpromise 🤩
+584	Save up to	Overpromise 🤩
+585	Special promotion	Overpromise 🤩
+586	The best	Overpromise 🤩
+587	Thousands	Overpromise 🤩
+588	Unbeatable offer	Overpromise 🤩
+589	Unbelievable	Overpromise 🤩
+590	Unlimited	Overpromise 🤩
+591	Unlimited trial	Overpromise 🤩
+592	Wonderful	Overpromise 🤩
+593	You will not believe your eyes	Overpromise 🤩
+594	$$$	Money 💰
+595	€€€	Money 💰
+596	£££	Money 💰
+597	50% off	Money 💰
+598	A few bob	Money 💰
+599	Accept cash cards	Money 💰
+600	Accept credit cards	Money 💰
+601	Affordable	Money 💰
+602	Affordable deal	Money 💰
+603	Avoid bankruptcy	Money 💰
+604	Bad credit	Money 💰
+605	Bank	Money 💰
+606	Bankruptcy	Money 💰
+607	Bargain	Money 💰
+608	Billing	Money 💰
+609	Billing address	Money 💰
+610	Billion	Money 💰
+611	Billion dollars	Money 💰
+612	Billionaire	Money 💰
+613	Card accepted	Money 💰
+614	Cards accepted	Money 💰
+615	Cash	Money 💰
+616	Cash bonus	Money 💰
+617	Cash out	Money 💰
+618	Cash-out	Money 💰
+619	Cashcashcash	Money 💰
+620	Casino	Money 💰
+621	Cents on the dollar	Money 💰
+622	Check	Money 💰
+623	Check or money order	Money 💰
+624	Claim your discount	Money 💰
+625	Cost	Money 💰
+626	Costs	Money 💰
+627	Credit	Money 💰
+628	Credit bureaus	Money 💰
+629	Credit card	Money 💰
+630	Credit card offers	Money 💰
+631	Credit or Debit	Money 💰
+632	Deal	Money 💰
+633	Debt	Money 💰
+634	Discount	Money 💰
+635	Dollars	Money 💰
+636	Double your	Money 💰
+637	Double your wealth	Money 💰
+638	Earn	Money 💰
+639	Earn $	Money 💰
+640	Earn cash	Money 💰
+641	Earn extra income	Money 💰
+642	Earn from home	Money 💰
+643	Earn monthly	Money 💰
+644	Earn per month	Money 💰
+645	Earn per week	Money 💰
+646	Earn your degree	Money 💰
+647	Easy income	Money 💰
+648	Easy terms	Money 💰
+649	F r e e	Money 💰
+650	For free	Money 💰
+651	For just $	Money 💰
+652	For just $ (amount)	Money 💰
+653	For just $xxx	Money 💰
+654	Get Money	Money 💰
+655	Get your money	Money 💰
+656	Hidden assets	Money 💰
+657	Huge discount	Money 💰
+658	Income	Money 💰
+659	Income from home	Money 💰
+660	Increase revenue	Money 💰
+661	Increase sales/traffic	Money 💰
+662	Increase your chances	Money 💰
+663	Initial investment	Money 💰
+664	Instant earnings	Money 💰
+665	Instant income	Money 💰
+666	Insurance	Money 💰
+667	Investment	Money 💰
+668	Investment advice	Money 💰
+669	Lifetime	Money 💰
+670	Loans	Money 💰
+671	Make $	Money 💰
+672	Money 💰	Money 💰
+673	Money making	Money 💰
+674	Money-back guarantee	Money 💰
+675	Money-making	Money 💰
+676	Monthly payment	Money 💰
+677	Mortgage	Money 💰
+678	Mortgage rates	Money 💰
+679	Offer	Money 💰
+680	One hundred percent free	Money 💰
+681	Only $	Money 💰
+682	Price	Money 💰
+683	Price protection	Money 💰
+684	Prices	Money 💰
+685	Profits	Money 💰
+686	Quote	Money 💰
+687	Rates	Money 💰
+688	Refinance	Money 💰
+689	Save $	Money 💰
+690	Serious cash	Money 💰
+691	Subject to credit	Money 💰
+692	US Dollars	Money 💰
+693	Why pay more?	Money 💰
+694	Your income	Money 💰
+695	Acceptance	Unnatural 💬
+696	Accordingly	Unnatural 💬
+697	Account-based marketing (ABM)	Unnatural 💬
+698	Accounts	Unnatural 💬
+699	Addresses	Unnatural 💬
+700	Addresses on CD	Unnatural 💬
+701	Beverage	Unnatural 💬
+702	Confidentiality on all orders	Unnatural 💬
+703	Confidentially on all orders	Unnatural 💬
+704	Content marketing	Unnatural 💬
+705	Dear [email address]	Unnatural 💬
+706	Dear [email/friend/somebody]	Unnatural 💬
+707	Dear [first name]	Unnatural 💬
+708	Dear [wrong name]	Unnatural 💬
+709	Digital marketing	Unnatural 💬
+710	Dormant	Unnatural 💬
+711	Email extractor	Unnatural 💬
+712	Email harvest	Unnatural 💬
+713	Email marketing	Unnatural 💬
+714	Extract email	Unnatural 💬
+715	Form	Unnatural 💬
+716	Freedom	Unnatural 💬
+717	Friend	Unnatural 💬
+718	Here	Unnatural 💬
+719	Hidden	Unnatural 💬
+720	Home	Unnatural 💬
+721	Home based	Unnatural 💬
+722	Home employment	Unnatural 💬
+723	Home-based	Unnatural 💬
+724	Home-based business	Unnatural 💬
+725	Homebased business	Unnatural 💬
+726	If you no longer wish to receive	Unnatural 💬
+727	Important information regarding	Unnatural 💬
+728	In accordance with laws	Unnatural 💬
+729	Increase your sales	Unnatural 💬
+730	Internet market	Unnatural 💬
+731	Leave	Unnatural 💬
+732	Lose	Unnatural 💬
+733	Maintained	Unnatural 💬
+734	Marketing	Unnatural 💬
+735	Marketing solution	Unnatural 💬
+736	Marketing solutions	Unnatural 💬
+737	Medium	Unnatural 💬
+738	Message contains	Unnatural 💬
+739	Multi level marketing	Unnatural 💬
+740	Never	Unnatural 💬
+741	One time mailing	Unnatural 💬
+742	Online marketing	Unnatural 💬
+743	Online pharmacy	Unnatural 💬
+744	Opt in	Unnatural 💬
+745	Per day	Unnatural 💬
+746	Per week	Unnatural 💬
+747	Pre-approved	Unnatural 💬
+748	Problem	Unnatural 💬
+749	Removal	Unnatural 💬
+750	Remove	Unnatural 💬
+751	Reserves the right	Unnatural 💬
+752	Reverses	Unnatural 💬
+753	Sample	Unnatural 💬
+754	Satisfaction	Unnatural 💬
+755	Score	Unnatural 💬
+756	Search engine	Unnatural 💬
+757	Search engine listings	Unnatural 💬
+758	Search engines	Unnatural 💬
+759	Sent in compliance	Unnatural 💬
+760	Solution	Unnatural 💬
+761	Stop	Unnatural 💬
+762	Success	Unnatural 💬
+763	Teen	Unnatural 💬
+764	Terms and conditions	Unnatural 💬
+765	Warranty	Unnatural 💬
+766	Web traffic	Unnatural 💬
+767	Wife	Unnatural 💬
+768	Work at home	Unnatural 💬 
+769	Work from home	Unnatural 💬
+
+100% free
+
+100% more
+
+100% satisfied
+
+4U
+
+Act now
+
+Additional income
+
+Address on CD
+
+All natural
+
+All new
+
+Apply now
+
+Apply online
+
+As seen on
+
+As seen on TV
+
+Avoid bankruptcy
+
+Bargain
+
+Be amazed
+
+Be your own boss
+
+Become a member
+
+Beneficiary
+
+Best price
+
+Big bucks
+
+Billion
+
+Billion dollars
+
+Bonus
+
+Bulk email
+
+Buy direct
+
+Call now
+
+Cancel at any time
+
+Cards accepted
+
+Cash
+
+Cash bonus
+
+Cents on the dollar
+
+Certified
+
+Cheap
+
+Check or money order
+
+Claims
+
+Clearance
+
+Click below
+
+Click here
+
+Compare rates
+
+Compete for your business
+
+Confidentiality
+
+Congratulations
+
+Consolidate debt
+
+Credit card offers
+
+Cures
+
+Dear friend
+
+Deal
+
+Direct email
+
+Direct marketing
+
+Discount
+
+Do it today
+
+Don’t delete
+
+Double your cash
+
+Double your income
+
+Earn extra cash
+
+Earn money
+
+Eliminate bad credit
+
+Eliminate debt
+
+Email harvest
+
+Exclusive deal
+
+Expect to earn
+
+Extra cash
+
+Extra income
+
+Fantastic
+
+Fast cash
+
+Fast Viagra delivery
+
+Financial freedom
+
+Free access
+
+Free consultation
+
+Free DVD
+
+Free gift
+
+Free hosting
+
+Free info
+
+Free installation
+
+Free Instant
+
+Free investment
+
+Free membership
+
+Free money
+
+Free preview
+
+Free priority mail
+
+Free quote
+
+Free trial
+
+Free website
+
+Full refund
+
+Get it now
+
+Get out of debt
+
+Get paid
+
+Giveaway
+
+Guaranteed
+
+Hidden assets
+
+Hidden charges
+
+Homebased business
+
+Human growth hormone
+
+Increase sales
+
+Increase traffic
+
+Incredible deal
+
+Information you requested
+
+Instant
+
+Internet marketing
+
+Investment
+
+Investment decision
+
+Join millions
+
+Lifetime
+
+Lifetime deal
+
+Limited time
+
+Loans
+
+Lose weight
+
+Lower interest rates
+
+Lower rates
+
+Lowest insurance rates
+
+Lowest price
+
+Luxury
+
+Make money
+
+Marketing solutions
+
+Marketing solution
+
+Mass email
+
+Meet singles
+
+Message contains
+
+Million dollars
+
+Miracle
+
+Miracle cure
+
+Money back
+
+Money making
+
+Mortgage rates
+
+Multi-level marketing
+
+Name brand
+
+New customers only
+
+No age restrictions
+
+No catch
+
+No claim forms
+
+No cost
+
+No credit check
+
+No fees
+
+No gimmick
+
+No hidden costs
+
+No hidden fees
+
+No interest
+
+No investment
+
+No medical exams
+
+No middleman
+
+No obligation
+
+No-obligation
+
+No purchase necessary
+
+No questions asked
+
+No strings attached
+
+Not junk
+
+Notspam
+
+Obligation
+
+Offer
+
+Once in a lifetime
+
+One time
+
+Online biz opportunity
+
+Online pharmacy
+
+Opt in
+
+Order now
+
+Passwords
+
+Pennies a day
+
+Potential earnings
+
+Pre-approved
+
+Prize
+
+Problem-free
+
+Promise
+
+Pure profit
+
+Quote
+
+Rates
+
+Refinance
+
+Refinance home
+
+Removal
+
+Remove
+
+Requires initial investment
+
+Reverses aging
+
+Risk-free
+
+Sales
+
+Sample
+
+Satisfaction guaranteed
+
+Save big money
+
+Save up to
+
+Score
+
+Score with babes
+
+Search engine listings
+
+Search engines
+
+Section 301
+
+See for yourself
+
+Sent in compliance
+
+Sign up free
+
+Sincerity
+
+Social security number
+
+Solution
+
+Spam
+
+Special promotion
+
+Stainless steel
+
+Stock alert
+
+Stock disclaimer statement
+
+Stock pick
+
+Stop snoring
+
+Success
+
+Super Viagra
+
+Supplies
+
+Take action
+
+Terms
+
+Terms and conditions
+
+This isn’t a scam
+
+This isn’t junk
+
+This isn’t spam
+
+This won’t last
+
+Traffic
+
+Transfer
+
+Trial
+
+Undisclosed
+
+Unsecured credit
+
+Unsecured debt
+
+Unsolicited
+
+US dollars
+
+Valium
+
+Viagra
+
+Vicodin
+
+Visit our website
+
+Warranty
+
+Web traffic
+
+Week trial offer
+
+Weight loss
+
+What are you waiting for?
+
+While supplies last
+
+Will not believe your eyes
+
+Winner
+
+Winning
+
+Won
+
+Work from home
+
+Xanax
+
+You are a winner!
+
+Your income
+
+Reverses aging
+
+Removes wrinkles
+
+Accept credit cards
+
+Ad
+
+All new
+
+Bargain
+
+Billing
+
+Bonus
+
+Cards accepted
+
+Certified
+
+Cheap
+
+Claims
+
+Clearance
+
+Compare rates
+
+Credit card offers
+
+Deal
+
+Debt
+
+Fantastic
+
+In accordance with laws
+
+Income
+
+Investment
+
+Join millions
+
+Lifetime
+
+Loans
+
+Luxury
+
+Marketing solution
+
+Message contains
+
+Mortgage rates
+
+Name brand
+
+Offer
+
+Online marketing
+
+Opt in
+
+Pre-approved
+
+Quote
+
+Rates
+
+Refinance
+
+Removal
+
+Reserves the right
+
+Score
+
+Search engine
+
+Sent in compliance
+
+Subject to…
+
+Trial
+
+Unlimited
+
+Warranty
+
+Web traffic
+
+Work from home
+
+Amazing
+
+Join today
+
+Cancel anytime
+
+Become a millionaire
+
+Collect earnings
+
+Earn from home
+
+Extra bonus
+
+Hidden income
+
+Internet cash
+
+Massive income
+
+Miracle solution
+
+Money-making secrets
+
+Pure income
+
+Quick cash
+
+Rapid income
+
+Secret to success
+
+Skyrocket your sales
+
+Tremendous offer
+
+Unlock earnings
+
+Watch this
+
+All natural miracle
+
+Ancient secret
+
+Confidentiality agreement
+
+Direct payment
+
+Discreet packaging
+
+Double your wealth
+
+Financial asset
+
+Freedom from debt
+
+Get rid of debt
+
+Incredible gains
+
+Legal notice
+
+Lifetime access
+
+No more debt
+
+Password protection
+
+Private access
+
+Retire early
+
+Sign up required
+
+Telecommuting
+
+Vacation offers
+
+Verified income
+
+Access granted
+
+Be your own boss
+
+Best in the market
+
+Cash earnings
+
+Cheap rates
+
+Drastically reduced
+
+Explode your business
+
+Hidden fees
+
+Internet income
+
+Meet people
+
+Network marketing
+
+Passwords required
+
+Please read
+
+Potential for earnings
+
+Pure income potential
+
+Real estate
+
+Refunds available
+
+Secrets of earning
+
+See for yourself
+
+Serious cash
+
+Sign-up bonus
+
+Starter fees
+
+Supplemental income
+
+Triple your income
+
+Ultimate earnings
+
+Unknown secret
+
+Auto loan
+
+Bad credit
+
+Bankruptcy
+
+Be amazed
+
+Big bonus
+
+Billionaire secrets
+
+Breakthrough solution
+
+Cash in hand
+
+Cheap loans
+
+Compare prices
+
+Credit repair
+
+Double your earnings
+
+Explode your profits
+
+Hidden secrets
+
+Incredible rates
+
+Lifetime offer
+
+Meet singles
+
+Millionaire potential
+
+Money wired
+
+Outstanding offers
+
+Password required
+
+Potential bonus
+
+Promise you
+
+Reboot your life
+
+Secret income
+
+Signup free today
+
+Staggering income
+
+Top dollar
+
+Triple earnings
+
+Ultimate income
+
+Unique offer
+
+Unleash potential
+
+Valuable asset
+
+Wealth without risk
+
+Win big
+
+Yearly income
+
+Zero percent
+
+Zero risk
+
+Get out of debt fast
+
+Hidden gem
+
+High potential
+
+Increase your wealth
+
+Lowest insurance
+
+Massive profit
+
+Meet women
+
+Money-making potential
+
+No risk involved
+
+Potential to earn
+
+Promise kept
+
+Pure profits
+
+Secret strategies
+
+Serious earnings
+
+Thousands in income
+
+Unbelievable deal
+
+Wealth creation
