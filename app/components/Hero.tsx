@@ -5,7 +5,7 @@ import CTA from "./CTA";
 const Hero: React.FC = () => {
   return (
     <section
-      className="text-[#2b2b2b] flex flex-col lg:flex-row lg:items-center py-24 px-12 gap-12"
+      className="text-[#2b2b2b] flex flex-col lg:flex-row lg:items-center py-24 px-5 lg:px-12 gap-12"
       style={{ backgroundImage: "url(/Hero&AboutSection-bg.png)" }}
     >
       <div className="w-full lg:w-3/4 mb-8 md:mb-0">

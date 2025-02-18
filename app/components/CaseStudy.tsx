@@ -31,8 +31,8 @@ const CaseStudy: React.FC = () => {
     },
     {
       id: 4,
-      title: "https://mailafiyaumarsulai.wixstudio.com/rsguttering",
-      caseStudyLink: "/",
+      title: "RS Guttering",
+      caseStudyLink: "https://mailafiyaumarsulai.wixstudio.com/rsguttering",
       description:
         "Revamped a roofing business landing page—giving it a fresh, modern look that aligns with their brand and goals. ",
       image: "/RS-Guttering.png",
