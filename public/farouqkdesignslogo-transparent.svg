@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305.91 211.04">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-9 {
+        fill: #fff;
+        font-family: NeueMachina-Light, 'Neue Machina';
+        font-size: 22px;
+        font-weight: 300;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <path class="cls-4" d="m1,1h56.24v57.26h41.92v27.27h-41.92v57.47H1V1Zm74.32,0h69.58v39.5h-13.04c-22.65,0-38.11-2.96-46.39-8.88-6.77-4.88-10.15-12.75-10.15-23.61V1Z"/>
+        <path class="cls-4" d="m122.58,142c-15.9,0-23.85-7.31-23.85-21.92,0-7.48,1.9-12.87,5.69-16.15,3.79-3.28,9.58-4.92,17.36-4.92s13.52,1.64,17.22,4.92c3.7,3.28,5.55,8.69,5.55,16.2s-1.72,13.05-5.15,16.58c-3.44,3.53-9.04,5.3-16.82,5.3Z"/>
+        <path class="cls-4" d="m167.24,1h56.24v141.79h-56.24V1Zm73.59,0h8.78c29.55,0,47.11,12.97,52.68,38.92,1.74,7.86,2.61,17.04,2.61,27.55s-1.1,20.52-3.29,30.05c-2.19,9.53-5.56,17.67-10.09,24.41-9.41,14.05-23.38,21.07-41.92,21.07h-8.78V1Z"/>
+      </g>
+      <text class="cls-9" transform="translate(46.82 205.98) scale(1.02 1)"><tspan class="cls-7" x="0" y="0">F</tspan><tspan class="cls-5" x="10.67" y="0">A</tspan><tspan class="cls-3" x="25.23" y="0">R</tspan><tspan x="39.18" y="0">OUQK.</tspan><tspan class="cls-8" x="108.92" y="0">DE</tspan><tspan class="cls-6" x="135.76" y="0">S</tspan><tspan class="cls-1" x="149.6" y="0">I</tspan><tspan class="cls-2" x="159.1" y="0">G</tspan><tspan x="176.04" y="0">NS</tspan></text>
+    </g>
+  </g>
+</svg>

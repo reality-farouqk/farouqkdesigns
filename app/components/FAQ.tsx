@@ -24,11 +24,11 @@ const FAQ: React.FC = () => {
         {faqs.map((faq, index) => (
           <div key={index} className="border p-5">
             <div
-              className="flex justify-between items-center cursor-pointer"
+              className="flex justify-between items-center cursor-pointer gap-2"
               onClick={() => toggleAnswer(index)}
             >
               <h2 className="text-lg font-normal">{faq.question}</h2>
-              <span className="text-xl md:text-2xl">{openIndex === index ? <Image width={24} height={24} className='w-5 lg:w-6 h-auto' src="/close sign.svg" alt="close sign" /> : <Image width={24} height={24} className='w-6 h-auto' src="/cross sign.svg" alt="cross sign" />}</span>
+              <span className="text-xl md:text-2xl shrink-0">{openIndex === index ? <Image width={24} height={24} className='w-5 lg:w-6 h-auto' src="/close sign.svg" alt="close sign" /> : <Image width={24} height={24} className='w-6 h-auto' src="/cross sign.svg" alt="cross sign" />}</span>
             </div>
             {openIndex === index && (
               <div className="mt-2 md:mt-4">

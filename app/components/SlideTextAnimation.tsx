@@ -4,7 +4,7 @@ import '../styles/slidetextanimation.css';
 const SlideTextAnimation: React.FC = () => {
   return (
     <div className="slider-container py-4 md:py-6">
-      <div className="slider font-bold">
+      <div className="slider text-lg md:text-4xl lg:text-5xl font-bold">
         <span className="slider-text font-normal">Unique Custom Designs</span>
         <span className="slider-text">.</span>
         <span className="slider-text">High-conversion</span>
