@@ -1,3 +1,4 @@
+'use cache'
 import "./globals.css";
 import localFont from "next/font/local";
 import ClientRouter from "./components/ClientRouter";

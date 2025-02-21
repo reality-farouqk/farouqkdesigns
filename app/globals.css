@@ -25,3 +25,12 @@ header {
   background: var(--header-bg-color);
 }
 
+div[dangerouslySetInnerHTML] ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+div[dangerouslySetInnerHTML] ul li {
+  margin-bottom: 10px;
+}
+
