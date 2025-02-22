@@ -37,16 +37,16 @@ const FullCaseStudy: React.FC<FullCaseStudyProps> = ({
       {sections.map((section, index) => (
         <div
           key={index}
-          className={`flex flex-col py-16 ${
-            section.image ? "lg:flex-row" : ""
-          } items-start gap-8 mb-12`}
+          className={`flex flex-col ${
+            section.image ? "lg:flex-row py-16" : ""
+          } items-start gap-8 mb-12 lg:mb-14`}
           style={{
             backgroundColor: section.image ? "#060D0d" : "white",
             color: section.image ? "white" : "#2b2b2b",
           }}
         >
-          <div className="w-full lg:w-1/2 py-4 px-10">
-            <h2 className="text-4xl font-bold mb-4">{section.headline}</h2>
+          <div className="w-full lg:w-3/5 py-4 px-10">
+            <h2 className="text-4xl font-bold mb-5">{section.headline}</h2>
             <div dangerouslySetInnerHTML={{__html: section.description}}></div>
             {/* <span className="text-base font-light">{section.description}</span> */}
           </div>
@@ -57,14 +57,14 @@ const FullCaseStudy: React.FC<FullCaseStudyProps> = ({
                 alt={section.headline}
                 width={500}
                 height={300}
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover border border-white"
               />
             </div>
           )}
         </div>
       ))}
-      <div className="text-center bg-[#42AFC0] text-white py-12 px-5">
-        <h2 className="text-3xl font-bold mb-4">Ready to Collaborate?</h2>
+      <div className="text-center bg-[#42AFC0] text-white py-20 px-5 lg:px-20 mb-5">
+        <h2 className="text-3xl lg:text-5xl font-bold mb-4 max-w-[650px] mx-auto">Need a high-converting landing page for your brand?</h2>
         <CTA />
         <p className="text-sm font-light mt-4">Simple Pricing. Clear Deliverables. Full Site Ownership</p>
       </div>

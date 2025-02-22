@@ -1,9 +1,9 @@
-'use cache'
 import "./globals.css";
 import localFont from "next/font/local";
 import ClientRouter from "./components/ClientRouter";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react"
+import Clarity from '@microsoft/clarity';
 
 const NeueMachina = localFont({
   src: [
@@ -25,6 +25,11 @@ const NeueMachina = localFont({
   ],
 });
 
+const projectId = "qdls91amcl"
+
+Clarity.init(projectId);
+Clarity.consent();
+
 export const metadata = {
   title: "Farouqk Designs - Web design & Copywriting Agency",
   description: "Crafting Designs That Speak & Words That Sell.",
@@ -44,7 +49,7 @@ export default function RootLayout({
         <SpeedInsights />
         <Analytics/>
         <ClientRouter>
-          <main className="main max-w-screen-xl mx-auto my-5 lg:my-6 border-x border-gray-400">{children}</main>
+          <main className="main max-w-screen-xl mx-auto my-5 lg:my-6 border border-gray-400">{children}</main>
         </ClientRouter>
       </body>
     </html>
