@@ -24,10 +24,10 @@ const FullCaseStudy: React.FC<FullCaseStudyProps> = ({
   sections,
 }) => {
   return (
-    <section className="text-[#2b2b2b] bg-white text-left py-24">
-      <div className="md:w-3/5 py-4 px-10">
+    <section className="text-[#2b2b2b] bg-white text-left pt-24">
+      <div className="md:w-3/5 py-4 px-5 md:px-10">
         <div className=" mb-8">
-          <h1 className="text-4xl md:text-5xl font-bold inline-block capitalize">{title}</h1>
+          <h1 className="text-5xl md:text-6xl font-bold inline-block capitalize">{title}</h1>
           <Link href={site_url} className="text-[#006E80] text-lg font-medium inline-block underline">
             (View Live Site)
           </Link>
@@ -45,8 +45,8 @@ const FullCaseStudy: React.FC<FullCaseStudyProps> = ({
             color: section.image ? "white" : "#2b2b2b",
           }}
         >
-          <div className="w-full lg:w-3/5 py-4 px-10">
-            <h2 className="text-4xl font-bold mb-5">{section.headline}</h2>
+          <div className="w-full lg:w-4/5 py-4 px-5 lg:px-10">
+            <h2 className="text-3xl md:text-4xl font-bold mb-5">{section.headline}</h2>
             <div dangerouslySetInnerHTML={{__html: section.description}}></div>
             {/* <span className="text-base font-light">{section.description}</span> */}
           </div>
@@ -63,7 +63,7 @@ const FullCaseStudy: React.FC<FullCaseStudyProps> = ({
           )}
         </div>
       ))}
-      <div className="text-center bg-[#42AFC0] text-white py-20 px-5 lg:px-20 mb-5">
+      <div className="text-center bg-[#42AFC0] text-white py-20 px-5 lg:px-20">
         <h2 className="text-3xl lg:text-5xl font-bold mb-4 max-w-[650px] mx-auto">Need a high-converting landing page for your brand?</h2>
         <CTA />
         <p className="text-sm font-light mt-4">Simple Pricing. Clear Deliverables. Full Site Ownership</p>
