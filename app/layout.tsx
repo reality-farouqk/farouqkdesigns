@@ -2,8 +2,9 @@ import "./globals.css";
 import localFont from "next/font/local";
 import ClientRouter from "./components/ClientRouter";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/react"
-import Clarity from '@microsoft/clarity';
+import { Analytics } from "@vercel/analytics/react";
+import Clarity from "@microsoft/clarity";
+import EthereumFix from "./components/EthereumFix";
 
 const NeueMachina = localFont({
   src: [
@@ -25,10 +26,9 @@ const NeueMachina = localFont({
   ],
 });
 
-const projectId = "qdls91amcl"
-
+const projectId = "qdls91amcl";
 Clarity.init(projectId);
-Clarity.consent();
+// Clarity.consent();
 
 export const metadata = {
   title: "Farouqk Designs - Web design & Copywriting Agency",
@@ -46,10 +46,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${NeueMachina.className} min-h-screen px-5 md:px-12`}>
+        <EthereumFix />
         <SpeedInsights />
-        <Analytics/>
+        <Analytics />
         <ClientRouter>
-          <main className="main max-w-screen-xl mx-auto my-5 lg:my-6 border border-gray-400">{children}</main>
+          <main className="main max-w-screen-xl mx-auto my-5 lg:my-6 border border-gray-400">
+            {children}
+          </main>
         </ClientRouter>
       </body>
     </html>

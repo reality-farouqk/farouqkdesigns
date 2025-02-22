@@ -316,7 +316,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   }
 
   const navigationButtonStyles: React.CSSProperties = {
-      position: "absolute",
+      position: "fixed",
       top: "35%",
       right: "10%",
   }
@@ -324,13 +324,13 @@ export default async function Page({ params }: { params: { slug: string } }) {
   return (
     <>
       <Link href={`/case-studies/${caseStudy.slug+1}`}>
-        <span style={navigationButtonStyles} className="text-sm text-gray-950 font-light capitalize hover:bg-[#CCF8FF]">next Case study <Image src="/solar_arrow-left-outline.png" alt="arrow" width={8} height={8} className="inline-block w-4 h-auto"/></span>
+        <span style={navigationButtonStyles} className="text-sm text-gray-950 font-light capitalize bg-[#FFD3CC] hover:bg-[#CCF8FF]">next Case study <Image src="/solar_arrow-left-outline.png" alt="arrow" width={8} height={8} className="inline-block w-4 h-auto"/></span>
       </Link>
-      <Header />
+      {/* <Header /> */}
       <FullCaseStudy {...caseStudy} />
       {/* <Contact /> */}
       <FAQ />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

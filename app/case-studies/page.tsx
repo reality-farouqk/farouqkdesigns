@@ -55,7 +55,7 @@ const caseStudies = [
 export default function Home() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="bg-white text-[#2b2b2b] container mx-auto px-5 py-20">
         <h1 className="text-3xl lg:text-5xl font-bold mb-6">Case Studies</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -83,7 +83,7 @@ export default function Home() {
       </div>
       <Contact />
       <FAQ />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -8,7 +8,7 @@ const CaseStudy: React.FC = () => {
     {
       id: 1,
       title: "TCA(Now seventh bear)",
-      caseStudyLink: "https://seventhbear.com/",
+      caseStudyLink: "/case-studies/1",
       description:
         "Redesigned their landing page proactively, reached out, and they instantly loved it—turning a bold move into a real impact",
       image: "/TCAs Home Page.png",
@@ -16,7 +16,7 @@ const CaseStudy: React.FC = () => {
     {
       id: 2,
       title: "Child Care",
-      caseStudyLink: "https://mailafiyaumarsulai.wixstudio.com/-childcare",
+      caseStudyLink: "/case-studies/2",
       description:
         "Designed a warm, inviting Wix demo for a child care center—showcasing a nurturing space for infants and children.",
       image: "/childscare.png",
@@ -24,7 +24,7 @@ const CaseStudy: React.FC = () => {
     {
       id: 3,
       title: "Pixel Forge",
-      caseStudyLink: "https://mailafiyaumarsulai.wixstudio.io/pixelforge",
+      caseStudyLink: "/case-studies/3",
       description:
         "A Wix demo showcasing a sleek branding agency landing page—crafted to highlight how businesses can elevate their identity.",
       image: "/Pixelforge.png",
@@ -32,7 +32,7 @@ const CaseStudy: React.FC = () => {
     {
       id: 4,
       title: "RS Guttering",
-      caseStudyLink: "https://mailafiyaumarsulai.wixstudio.com/rsguttering",
+      caseStudyLink: "/case-studies/4",
       description:
         "Revamped a roofing business landing page—giving it a fresh, modern look that aligns with their brand and goals. ",
       image: "/RS-Guttering.png",
@@ -40,7 +40,7 @@ const CaseStudy: React.FC = () => {
     {
       id: 5,
       title: "Caleb's Redesign",
-      caseStudyLink: "/",
+      caseStudyLink: "/case-studies/5",
       description:
         "A sleek redesign to refine Caleb’s landing page—crafted to enhance clarity, aesthetics, and user experience.",
       image: "/Caleb-hero-redesign.png",
@@ -48,7 +48,7 @@ const CaseStudy: React.FC = () => {
     {
       id: 6,
       title: "The Consistent Cash Flow",
-      caseStudyLink: "/",
+      caseStudyLink: "/case-studies/6",
       description:
         "Designed a high-converting product landing page for my mentor, Kat Irwin, to drive engagement and sales.",
       image: "/The Consistent Cash Flow Toolkit Landing Page.png",
