@@ -11,6 +11,12 @@ const Testimonial: React.FC = () => {
     },
     {
       id: 2,
+      text: `“Umar is the best to work with! His professionalism and creativity shine in every aspect of his work. his communication was clear, proactive, and collaborative, he kept me in the loop at every stage and seamlessly translated my vision into a stunning, functional website. What truly impressed me was his attention to detail. Prioritizes customer service. He welcomed feedback gracefully, offered smart solutions, and went above and beyond to ensure I was thrilled with the final product.`,
+      image: '/isreal-anga.jpg',
+      name: 'Isreal Anga - CEO@ParanTechWater',
+    },
+    {
+      id: 3,
       text: `“Umar's proactive approach and keen eye for detail truly impressed us. His proposal to enhance our online presence resonated with our vision, and his insights into optimizing user experience were invaluable. Both Cathy and I were particularly drawn to the idea of transitioning to a sleek, one-page website, similar to the concept Umar presented.”`,
       image: '/robert@contentadvisory.png',
       name: 'Robert Rose - CEO@TCA(now Seventh Bear)',
