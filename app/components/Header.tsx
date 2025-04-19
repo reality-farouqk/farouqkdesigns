@@ -15,7 +15,7 @@ const Header: React.FC = () => {
     <header className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 md:gap-0 py-5 px-12">
       <div className="logo">
         <Link href="/">
-          <Image src="/farouqkdesignslogo-transparent.svg" alt="Logo" width={100} height={50} />
+          <Image src="/farouqkdesignslogo-transparent.svg" alt="Farouqk Designs Logo" width={100} height={50} style={{ width: "auto", height: "auto" }} />
         </Link>
       </div>
       <nav className="flex items-center">
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
           <li><Link href="/" className={isActive("/")}>Home</Link></li>
           <li><Link href="/#about" className={isActive("/#about")}>About</Link></li>
           <li><Link href="/case-studies" className={isActive("/case-studies")}>Case Studies</Link></li>
-          {/* <li><Link href="/#casestudy" className={isActive("/#casestudy")}>Services</Link></li> */}
+          {/* <li><Link href="/#services" className={isActive("/#services")}>Services</Link></li> */}
           <li><Link href="/#contact" className={isActive("/#contact")}>Contact</Link></li>
         </ul>
       </nav>

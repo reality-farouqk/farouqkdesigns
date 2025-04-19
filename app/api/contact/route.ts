@@ -5,6 +5,16 @@ export async function POST(req: Request) {
   try {
     const { name, email, message, website } = await req.json();
 
+    // Validate environment variables
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+      console.error("Missing EMAIL_USER or EMAIL_PASS environment variables");
+      return NextResponse.json(
+        { error: "Server configuration error" },
+        { status: 500 }
+      );
+    }
+
+    // Honeypot check
     if (website) {
       return NextResponse.json(
         { error: "Spam detected!" },
@@ -12,6 +22,7 @@ export async function POST(req: Request) {
       );
     }
 
+    // Required fields
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: "All fields are required" },

@@ -53,6 +53,7 @@ I highly recommend Umar to anyone looking for a talented, reliable designer who 
               <Image
                 width={50}
                 height={50}
+                loading="lazy"
                 src={testimonial.image}
                 alt={testimonial.name}
                 className="w-12 h-12 rounded-full mr-4"

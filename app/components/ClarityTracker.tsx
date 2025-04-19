@@ -1,4 +1,3 @@
-// components/ClarityTracker.tsx
 "use client";
 
 import { useEffect } from "react";
@@ -9,7 +8,6 @@ export default function ClarityTracker() {
   const projectId = "qdls91amcl";
 
   useEffect(() => {
-    // Add global error handler to capture Clarity script errors
     const handleError = (event: ErrorEvent) => {
       console.error("ClarityTracker: Global JS Error:", {
         message: event.message,
@@ -25,37 +23,51 @@ export default function ClarityTracker() {
 
     window.addEventListener("error", handleError);
 
-    // Delay Clarity initialization to ensure script is loaded
-    const timer = setTimeout(() => {
+    let attempts = 0;
+    const maxAttempts = 5;
+    const interval = 1000; // 1 second between retries
+
+    const tryClarityCommands = () => {
       try {
-        console.log("ClarityTracker: Checking window.clarity");
+        console.log("ClarityTracker: Attempt", attempts + 1, "Checking window.clarity");
         console.log("window.clarity exists:", !!window.clarity);
         console.log("window.clarity type:", typeof window.clarity);
 
-        if (typeof window !== "undefined" && window.clarity) {
+        if (
+          typeof window !== "undefined" &&
+          window.clarity &&
+          typeof window.clarity === "function"
+        ) {
           console.log("ClarityTracker: Executing Clarity commands");
-          // Initialize Clarity
           window.clarity("init", projectId);
           console.log("Clarity initialized with projectId:", projectId);
-
-          // Set consent (replace with dynamic consent logic if needed)
           window.clarity("consent");
           console.log("Clarity consent set");
-
-          // Simplified tracking to isolate interaction errors
           window.clarity("setTag", "page", pathname);
           console.log("Clarity tag set:", { page: pathname });
+          return true; // Success
         } else {
-          console.warn("ClarityTracker: window.clarity is not available");
+          console.warn("ClarityTracker: window.clarity is not ready");
+          return false; // Retry
         }
       } catch (error) {
         console.error("ClarityTracker: Error executing Clarity commands:", error);
+        return false; // Retry
       }
-    }, 1000);
+    };
 
-    // Cleanup
+    const intervalId = setInterval(() => {
+      attempts++;
+      if (tryClarityCommands() || attempts >= maxAttempts) {
+        clearInterval(intervalId);
+        if (attempts >= maxAttempts) {
+          console.error("ClarityTracker: Max attempts reached, Clarity not initialized");
+        }
+      }
+    }, interval);
+
     return () => {
-      clearTimeout(timer);
+      clearInterval(intervalId);
       window.removeEventListener("error", handleError);
     };
   }, [pathname]);
