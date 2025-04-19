@@ -43,6 +43,18 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        {/* Google Analytics tag */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S48SW6XPQV"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-S48SW6XPQV');
+            `,
+          }}
+        />
         {/* Clarity script tag */}
         <script
           type="text/javascript"
