@@ -6,6 +6,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import EthereumFix from "./components/EthereumFix";
 import ClarityTracker from "./components/ClarityTracker";
+import Script from 'next/script';
 
 const NeueMachina = localFont({
   src: [
@@ -43,18 +44,19 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        {/* Google Analytics tag */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S48SW6XPQV"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-S48SW6XPQV');
-            `,
-          }}
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-S48SW6XPQV"
+          strategy="afterInteractive"
         />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-S48SW6XPQV');
+          `}
+        </Script>
         {/* Clarity script tag */}
         <script
           type="text/javascript"
