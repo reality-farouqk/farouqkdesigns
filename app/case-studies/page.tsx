@@ -6,6 +6,7 @@ import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Link from "next/link";
 import Image from "next/image";
+import ScrollRevealWrapper from "../components/ScrollRevealWrapper";
 
 const caseStudies = [
   {
@@ -57,32 +58,49 @@ export default function Home() {
     <>
       {/* <Header /> */}
       <div className="bg-white text-[#2b2b2b] container mx-auto px-5 py-24">
-        <h1 className="text-3xl lg:text-5xl font-bold mb-10">Case Studies</h1>
+        <ScrollRevealWrapper delay={200} origin="left" distance="30px" duration={1000}>
+          <h1 className="text-3xl lg:text-5xl font-bold mb-10">Case Studies</h1>
+        </ScrollRevealWrapper>
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {caseStudies.map((caseStudy) => (
-            <div key={caseStudy.id} className="border p-4 rounded-lg shadow-lg">
-              <Image
-                src={caseStudy.image}
-                alt={caseStudy.title}
-                width={250}
-                height={250}
-                className="w-full h-auto"
-              />
-              <h2 className="text-2xl font-semibold my-3 lg:my-5">{caseStudy.title}</h2>
-              <p className="text-base font-light mb-4">
-                {caseStudy.description}
-              </p>
-              <Link href={`/case-studies/${caseStudy.id}`}>
-                <span className="text-[#0092AA] hover:underline">
-                  Read More
-                </span>
-              </Link>
-            </div>
+          {caseStudies.map((caseStudy, index) => (
+            <ScrollRevealWrapper 
+              key={caseStudy.id} 
+              delay={300 + (index * 100)} 
+              origin="bottom" 
+              distance="30px" 
+              duration={1000}
+            >
+              <div className="border p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                <Image
+                  src={caseStudy.image}
+                  alt={caseStudy.title}
+                  width={250}
+                  height={250}
+                  className="w-full h-auto"
+                />
+                <h2 className="text-2xl font-semibold my-3 lg:my-5">{caseStudy.title}</h2>
+                <p className="text-base font-light mb-4">
+                  {caseStudy.description}
+                </p>
+                <Link href={`/case-studies/${caseStudy.id}`}>
+                  <span className="text-[#0092AA] hover:underline">
+                    Read More
+                  </span>
+                </Link>
+              </div>
+            </ScrollRevealWrapper>
           ))}
         </div>
       </div>
-      <Contact />
-      <FAQ />
+      
+      <ScrollRevealWrapper delay={800} origin="bottom" distance="30px" duration={1000}>
+        <Contact />
+      </ScrollRevealWrapper>
+      
+      <ScrollRevealWrapper delay={900} origin="bottom" distance="30px" duration={1000}>
+        <FAQ />
+      </ScrollRevealWrapper>
       {/* <Footer /> */}
     </>
   );
