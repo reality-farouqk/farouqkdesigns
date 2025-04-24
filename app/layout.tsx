@@ -32,7 +32,20 @@ export const metadata = {
   title: "Farouqk Designs - Web design & Copywriting Agency",
   description: "Crafting Designs That Speak & Words That Sell.",
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      {
+        url: '/favicon.ico',
+        href: '/favicon.ico',
+      },
+    ],
+    shortcut: ['/favicon.ico'],
+    apple: [
+      {
+        url: '/favicon.ico',
+        sizes: '180x180',
+        type: 'image/ico',
+      },
+    ],
   },
 };
 

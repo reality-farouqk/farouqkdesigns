@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import Image from 'next/image';
+import ScrollRevealWrapper from './ScrollRevealWrapper';
 
 const FAQ: React.FC = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -20,23 +21,41 @@ const FAQ: React.FC = () => {
 
   return (
     <section className="text-[#2b2b2b] bg-white px-5 py-24 md:px-12">
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 md:mb-10 text-center">Got Questions? I Have Answers.</h1>
+      <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 md:mb-10 text-center">
+          Got Questions? I Have Answers.
+        </h1>
+      </ScrollRevealWrapper>
+
       <div className="space-y-4 max-w-[800px] mx-auto">
         {faqs.map((faq, index) => (
-          <div key={index} className="border p-5">
-            <div
-              className="flex justify-between items-center cursor-pointer gap-2"
-              onClick={() => toggleAnswer(index)}
-            >
-              <h2 className="text-lg font-normal">{faq.question}</h2>
-              <span className="text-xl md:text-2xl shrink-0">{openIndex === index ? <Image width={24} height={24} className='w-5 lg:w-6 h-auto' src="/close sign.svg" alt="close sign" /> : <Image width={24} height={24} className='w-6 h-auto' src="/cross sign.svg" alt="cross sign" />}</span>
-            </div>
-            {openIndex === index && (
-              <div className="mt-2 md:mt-4">
-                <p className="text-base font-light">{faq.answer}</p>
+          <ScrollRevealWrapper 
+            key={index}
+            delay={400 + (index * 100)} 
+            origin="bottom"
+            distance="30px"
+            duration={800}
+          >
+            <div className="border p-5">
+              <div
+                className="flex justify-between items-center cursor-pointer gap-2"
+                onClick={() => toggleAnswer(index)}
+              >
+                <h2 className="text-lg font-normal">{faq.question}</h2>
+                <span className="text-xl md:text-2xl shrink-0">
+                  {openIndex === index ? 
+                    <Image width={24} height={24} className='w-5 lg:w-6 h-auto' src="/close sign.svg" alt="close sign" /> : 
+                    <Image width={24} height={24} className='w-6 h-auto' src="/cross sign.svg" alt="cross sign" />
+                  }
+                </span>
               </div>
-            )}
-          </div>
+              {openIndex === index && (
+                <div className="mt-2 md:mt-4">
+                  <p className="text-base font-light">{faq.answer}</p>
+                </div>
+              )}
+            </div>
+          </ScrollRevealWrapper>
         ))}
       </div>
     </section>

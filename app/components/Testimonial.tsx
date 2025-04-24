@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
+import ScrollRevealWrapper from './ScrollRevealWrapper';
 
 const Testimonial: React.FC = () => {
   const testimonials = [
@@ -34,7 +35,12 @@ I highly recommend Umar to anyone looking for a talented, reliable designer who 
 
   return (
     <section className="text-[#2b2b2b] bg-cover bg-center px-5 py-24 md:px-12" style={{ backgroundImage: 'url(/Testimonial-bg.png)' }}>
+      <ScrollRevealWrapper className="mb-10" delay={200} origin="top" distance="20px" duration={700}>
+
       <h1 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold capitalize mb-12">See What Other Clients Are Saying</h1>
+      
+      </ScrollRevealWrapper>
+      <ScrollRevealWrapper className="mb-10" delay={300} origin="top" distance="20px" duration={700}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-5">
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="bg-white p-6 md:mx-11 shadow-lg shadow-[#CCF8FF] h-auto flex flex-col justify-between">
@@ -63,6 +69,8 @@ I highly recommend Umar to anyone looking for a talented, reliable designer who 
           </div>
         ))}
       </div>
+      </ScrollRevealWrapper>
+
     </section>
   );
 };

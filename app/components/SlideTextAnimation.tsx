@@ -1,8 +1,10 @@
 import React from 'react';
 import '../styles/slidetextanimation.css';
+import ScrollRevealWrapper from './ScrollRevealWrapper';
 
 const SlideTextAnimation: React.FC = () => {
   return (
+    <ScrollRevealWrapper delay={200} origin="bottom" distance="20px" duration={1000}>
     <div className="slider-container py-4 md:py-6">
       <div className="slider text-lg md:text-4xl lg:text-5xl font-bold">
         <span className="slider-text font-normal">Unique Custom Designs</span>
@@ -62,6 +64,7 @@ const SlideTextAnimation: React.FC = () => {
         <span className="slider-text">Flexible availability</span>
       </div>
     </div>
+    </ScrollRevealWrapper>
   );
 };
 
