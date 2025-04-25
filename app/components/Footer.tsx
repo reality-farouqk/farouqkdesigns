@@ -73,14 +73,14 @@ const Footer: React.FC = () => {
       </div>
       <div className="text-xs font-light text-center bg-[#004955] py-6 px-4 md:p-5">
         <ScrollRevealWrapper
-          delay={800}
+          delay={400}
           origin="bottom"
-          distance="10px"
-          duration={800}
+          distance="5px"
+          duration={500}
         >
-          <div className="flex flex-col items-center space-y-2">
-            <p>Built with ♥️, driven by purpose ✴️</p>
-            <p>Farouqk Designs © 2025 All rights reserved</p>
+          <div className="flex flex-col items-center gap-2 relative z-10"> {/* Added z-index and gap */}
+            <p className="text-white">Built with ♥️, driven by purpose ✴️</p>
+            <p className="text-white">Farouqk Designs © 2025 All rights reserved</p>
           </div>
         </ScrollRevealWrapper>
       </div>
