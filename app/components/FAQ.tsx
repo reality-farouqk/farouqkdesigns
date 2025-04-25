@@ -21,27 +21,28 @@ const FAQ: React.FC = () => {
 
   return (
     <section className="text-[#2b2b2b] bg-white px-5 py-24 md:px-12">
-      <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-5 md:mb-10 text-center">
-          Got Questions? I Have Answers.
-        </h1>
-      </ScrollRevealWrapper>
+      <div className="text-center mb-5 md:mb-10">
+        <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
+          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+            Got Questions? I Have Answers.
+          </h1>
+        </ScrollRevealWrapper>
+      </div>
 
       <div className="space-y-4 max-w-[800px] mx-auto">
         {faqs.map((faq, index) => (
-          <ScrollRevealWrapper 
-            key={index}
-            delay={400 + (index * 100)} 
-            origin="bottom"
-            distance="30px"
-            duration={800}
-          >
-            <div className="border p-5">
+          <div key={index} className="border p-5">
+            <ScrollRevealWrapper 
+              delay={400 + (index * 100)} 
+              origin="bottom"
+              distance="30px"
+              duration={800}
+            >
               <div
                 className="flex justify-between items-center cursor-pointer gap-2"
                 onClick={() => toggleAnswer(index)}
               >
-                <h2 className="text-lg font-normal">{faq.question}</h2>
+                <h2 className="text-base font-normal">{faq.question}</h2>
                 <span className="text-xl md:text-2xl shrink-0">
                   {openIndex === index ? 
                     <Image width={24} height={24} className='w-5 lg:w-6 h-auto' src="/close sign.svg" alt="close sign" /> : 
@@ -49,13 +50,21 @@ const FAQ: React.FC = () => {
                   }
                 </span>
               </div>
-              {openIndex === index && (
+            </ScrollRevealWrapper>
+            
+            {openIndex === index && (
+              <ScrollRevealWrapper 
+                delay={500 + (index * 100)} 
+                origin="bottom"
+                distance="20px"
+                duration={600}
+              >
                 <div className="mt-2 md:mt-4">
-                  <p className="text-base font-light">{faq.answer}</p>
+                  <p className="text-sm font-light">{faq.answer}</p>
                 </div>
-              )}
-            </div>
-          </ScrollRevealWrapper>
+              </ScrollRevealWrapper>
+            )}
+          </div>
         ))}
       </div>
     </section>

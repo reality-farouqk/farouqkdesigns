@@ -54,47 +54,32 @@ const Contact: React.FC = () => {
       className="bg-cover bg-center p-8 bg-[#42AFC0] px-5 py-24 md:px-12"
     >
       <div className="text-center mb-8 max-w-[600px] mx-auto">
-        <ScrollRevealWrapper
-          delay={200}
-          origin="top"
-          distance="20px"
-          duration={1000}
-        >
+        <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 capitalize">
             Get a world-class website and a constant roll in of clients
           </h1>
         </ScrollRevealWrapper>
-        <ScrollRevealWrapper
-          delay={400}
-          origin="top"
-          distance="20px"
-          duration={1000}
-        >
+        <ScrollRevealWrapper delay={400} origin="top" distance="20px" duration={1000}>
           <h2 className="text-base md:text-lg font-normal text-white capitalize">
             Let&apos;s Collaborate to bring your vision to life.
           </h2>
         </ScrollRevealWrapper>
       </div>
 
-      <ScrollRevealWrapper
-        delay={600}
-        origin="bottom"
-        distance="40px"
-        duration={1200}
-      >
-        <div className="flex justify-center">
-          <form
-            className="bg-white p-8 rounded shadow-lg w-full max-w-2xl"
-            onSubmit={handleSubmit}
-          >
+      <div className="flex justify-center">
+        <form
+          className="bg-white p-8 rounded shadow-lg w-full max-w-2xl"
+          onSubmit={handleSubmit}
+        >
+          <ScrollRevealWrapper delay={500} origin="bottom" distance="20px" duration={1000}>
             <h3 className="text-[#2b2b2b] text-xl md:text-2xl font-bold mb-4 text-center">
               Send Us a Message
             </h3>
+          </ScrollRevealWrapper>
+
+          <ScrollRevealWrapper delay={600} origin="bottom" distance="20px" duration={1000}>
             <div className="mb-5">
-              <label
-                className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="name"
-              >
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
                 Name
               </label>
               <input
@@ -107,11 +92,11 @@ const Contact: React.FC = () => {
                 required
               />
             </div>
+          </ScrollRevealWrapper>
+
+          <ScrollRevealWrapper delay={700} origin="bottom" distance="20px" duration={1000}>
             <div className="mb-5">
-              <label
-                className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="email"
-              >
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
                 Email
               </label>
               <input
@@ -124,11 +109,11 @@ const Contact: React.FC = () => {
                 required
               />
             </div>
+          </ScrollRevealWrapper>
+
+          <ScrollRevealWrapper delay={800} origin="bottom" distance="20px" duration={1000}>
             <div className="mb-5">
-              <label
-                className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="message"
-              >
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
                 Message
               </label>
               <textarea
@@ -139,16 +124,20 @@ const Contact: React.FC = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
-              ></textarea>
+              />
             </div>
-            {/* Subtle honeypot field */}
-            <input
-              type="text"
-              name="website"
-              style={{ display: "none" }}
-              value={website}
-              onChange={(e) => setWebsite(e.target.value)}
-            />
+          </ScrollRevealWrapper>
+
+          {/* Honeypot field */}
+          <input
+            type="text"
+            name="website"
+            style={{ display: "none" }}
+            value={website}
+            onChange={(e) => setWebsite(e.target.value)}
+          />
+
+          <ScrollRevealWrapper delay={900} origin="bottom" distance="20px" duration={1000}>
             <div className="flex justify-center">
               <button
                 className={`bg-[#D41E00] hover:bg-[#550C00] text-white uppercase text-bold text-sm py-3 px-4 rounded focus:outline-none focus:shadow-outline ${
@@ -160,19 +149,24 @@ const Contact: React.FC = () => {
                 {loading ? "Sending..." : "Collaborate Now"}
               </button>
             </div>
-            {success && (
-              <div className="text-md text-center mt-4 text-green-500 font-bold">
-                Message sent successfully!
-              </div>
-            )}
-            {error && (
-              <div className="text-md text-center mt-4 text-red-500 font-bold">
-                {error}
-              </div>
-            )}
-          </form>
-        </div>
-      </ScrollRevealWrapper>
+          </ScrollRevealWrapper>
+
+          {(success || error) && (
+            <ScrollRevealWrapper delay={1000} origin="bottom" distance="20px" duration={1000}>
+              {success && (
+                <div className="text-md text-center mt-4 text-green-500 font-bold">
+                  Message sent successfully!
+                </div>
+              )}
+              {error && (
+                <div className="text-md text-center mt-4 text-red-500 font-bold">
+                  {error}
+                </div>
+              )}
+            </ScrollRevealWrapper>
+          )}
+        </form>
+      </div>
     </section>
   );
 };
