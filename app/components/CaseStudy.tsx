@@ -8,19 +8,19 @@ const CaseStudy: React.FC = () => {
   const caseStudies = [
     {
       id: 1,
-      title: "TCA(Now seventh bear)",
+      title: "Mindset in Sales",
       caseStudyLink: "/case-studies/1",
       description:
-        "Redesigned their landing page proactively, reached out, and they instantly loved it—turning a bold move into a real impact",
-      image: "/TCAs Home Page.png",
+        "Crafted a mindset-driven website for Nikki Lang, The Mindful Seller, to empower B2B sellers with a bold, human-first platform.",
+      image: "/Nikki Lang - Mindset In Sales.png",
     },
     {
       id: 2,
-      title: "Child Care",
+      title: "TCA(Now seventh bear)",
       caseStudyLink: "/case-studies/2",
       description:
-        "Designed a warm, inviting Wix demo for a child care center—showcasing a nurturing space for infants and children.",
-      image: "/childscare.png",
+        "Redesigned their landing page proactively, reached out, and they instantly loved it—turning a bold move into a real impact.",
+      image: "/TCAs Home Page.png",
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ const CaseStudy: React.FC = () => {
       title: "RS Guttering",
       caseStudyLink: "/case-studies/4",
       description:
-        "Revamped a roofing business landing page—giving it a fresh, modern look that aligns with their brand and goals. ",
+        "Revamped a roofing business landing page—giving it a fresh, modern look that aligns with their brand and goals.",
       image: "/RS-Guttering.png",
     },
     {
@@ -54,6 +54,14 @@ const CaseStudy: React.FC = () => {
         "Designed a high-converting product landing page for my mentor, Kat Irwin, to drive engagement and sales.",
       image: "/The Consistent Cash Flow Toolkit Landing Page.png",
     },
+    // {
+    //   id: 7,
+    //   title: "Child Care",
+    //   caseStudyLink: "/case-studies/3",
+    //   description:
+    //     "Designed a warm, inviting Wix demo for a child care center—showcasing a nurturing space for infants and children.",
+    //   image: "/childscare.png",
+    // },
   ];
 
   return (
