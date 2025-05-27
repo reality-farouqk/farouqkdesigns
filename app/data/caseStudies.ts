@@ -102,7 +102,7 @@ export const caseStudies: CaseStudy[] = [
               <li><strong>Better visual hierarchy </strong>– Designed a modern, high-converting interface that guides users effortlessly.</li>
             </ul>
             `,
-        image: "/TCAs Home Page.png",
+        video: "/TCA(Seventh Bear) website review.mp4",
       },
       {
         headline: "Elevating Brand Presence",
@@ -146,16 +146,6 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
   },
-  // {
-  //   slug: 3,
-  //   site_url: "https://mailafiyaumarsulai.wixstudio.com/-childcare",
-  //   title: "Child Care Landing Page – Winning Wix Studio Challenge Entry",
-  //   description:
-  //     "This project was a demo landing page for a child care center, created as part of a monthly web design challenge hosted by Kyle Prinsloo and sponsored by Wix Studio. The goal was to design a warm, engaging, and user-friendly landing page that effectively communicates trust, care, and professionalism.",
-  //   sections: [
-  //     // ...existing code...
-  //   ],
-  // },
   {
     slug: 3,
     site_url: "https://mailafiyaumarsulai.wixstudio.io/pixelforge",
@@ -178,7 +168,7 @@ export const caseStudies: CaseStudy[] = [
               <li><strong>Seamless navigation</strong>– Smooth user flow from introduction to services and contact.</li>
             </ul>
             `,
-        image: "/Pixelforge.png",
+        video: "/PixelForge Web design Preview.mp4",
       },
       {
         headline: "Key Features",
@@ -219,7 +209,7 @@ export const caseStudies: CaseStudy[] = [
                 <li><strong>Strengthening trust signals</strong> – Featuring testimonials, certifications, and case studies to build credibility.</li>
             </ul>
             `,
-        image: "/RS-Guttering.png",
+        video: "/RS Guttering services web design preview.mp4",
       },
       {
         headline: "Key Features",
@@ -260,7 +250,7 @@ export const caseStudies: CaseStudy[] = [
                 <li><strong>Improved user flow</strong> – Making it easier for visitors to understand his offer and take action.</li>
             </ul>
             `,
-        image: "/Caleb-hero-redesign.png",
+        video: "/Caleb Raltson Demo Landing Page design.mp4",
       },
       {
         headline: "Key Features",
@@ -303,7 +293,7 @@ export const caseStudies: CaseStudy[] = [
                 <li><strong>Conversion optimization</strong> – Placing CTAs strategically to encourage action.</li>
             </ul>
             `,
-        image: "/The Consistent Cash Flow Toolkit Landing Page.png",
+        video: "/Kat Irwin Website Preview.mp4",
       },
       {
         headline: "Key Features",
@@ -329,6 +319,47 @@ export const caseStudies: CaseStudy[] = [
         headline: "Impact",
         description:
           "The final design positioned The Consistent Cash Flow for success, providing a seamless experience that encourages conversions while staying true to Kat’s brand.",
+      },
+    ],
+  },
+  {
+    slug: 7,
+    site_url: "https://mailafiyaumarsulai.wixstudio.com/-childcare",
+    title: "Child Care Landing Page – Winning Wix Studio Challenge Entry",
+    description:
+      "This project was a demo landing page for a child care center, created as part of a monthly web design challenge hosted by Kyle Prinsloo and sponsored by Wix Studio. The goal was to design a warm, engaging, and user-friendly landing page that effectively communicates trust, care, and professionalism.",
+    sections: [
+      {
+        headline: "Strategy & Design Process",
+        description: `
+          <p>Designing for a child care center required a delicate balance between professionalism and warmth.</p>
+          <ul style="list-style-type: disc; margin-left: 24px">
+            <li>Soft, inviting colors to create a nurturing atmosphere.</li>
+            <br/>
+            <li>Clear, readable typography for easy navigation.</li>
+            <br/>
+            <li>A well-structured layout guiding parents effortlessly through services and trust signals.</li>
+          </ul>
+        `,
+        video: "/Childcare winning wixstudio entry website design preview.mp4",
+      },
+      {
+        headline: "Key Features",
+        description: `
+          <ul style="list-style-type: disc; margin-left: 24px">
+            <li><strong>Emotional storytelling</strong> – Content that reassures parents about the center’s care quality.</li>
+            <br/>
+            <li><strong>Engaging visuals</strong> – Friendly imagery reinforcing a safe, welcoming environment.</li>
+            <br/>
+            <li><strong>Conversion-focused</strong> – Encouraging sign-ups and inquiries with a seamless UX.</li>
+          </ul>
+        `,
+      },
+      {
+        headline: "The Winning Edge",
+        description: `
+          <p>The landing page stood out in the competition, securing first place for that month. The success reaffirmed my ability to blend strategic UX, engaging design, and business impact in web projects.</p>
+        `,
       },
     ],
   },
