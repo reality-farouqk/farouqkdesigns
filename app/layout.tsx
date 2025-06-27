@@ -29,7 +29,7 @@ const NeueMachina = localFont({
 });
 
 export const metadata = {
-  title: "Farouqk Designs - Web design & Copywriting Agency",
+  title: "Farouqk Designs - Web design & Marketing Agency",
   description: "Crafting Designs That Speak & Words That Sell.",
   icons: {
     icon: [

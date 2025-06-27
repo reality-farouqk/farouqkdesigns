@@ -1,5 +1,19 @@
+//app/api/contact/route.ts
+//this file handles the contact form submission, validates input, and sends an email using nodemailer.
 import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
+
+// Helper to check if message is relevant to your services
+function isRelevantMessage(message: string): boolean {
+  const keywords = [
+    // Design & development
+    "web design", "branding", "logo", "ui", "ux", "website", "portfolio", "graphic", "design", "development", "farouqk", "umar",
+    // Marketing & copywriting
+    "marketing", "digital marketing", "content marketing", "seo", "search engine", "copywriting", "copywriter", "ad copy", "sales page", "landing page", "email campaign", "social media", "content strategy", "brand messaging", "storytelling", "conversion", "call to action", "newsletter", "blog post", "press release"
+  ];
+  const lowerMsg = message.toLowerCase();
+  return keywords.some((kw) => lowerMsg.includes(kw));
+}
 
 export async function POST(req: Request) {
   try {
@@ -35,6 +49,14 @@ export async function POST(req: Request) {
     if (!emailRegex.test(email)) {
       return NextResponse.json(
         { error: "Invalid email format" },
+        { status: 400 }
+      );
+    }
+
+    // Message length and relevance validation
+    if (message.length < 100 || !isRelevantMessage(message)) {
+      return NextResponse.json(
+        { error: "Message must be at least 100 characters and relevant to our services." },
         { status: 400 }
       );
     }

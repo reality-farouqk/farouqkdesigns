@@ -1,3 +1,4 @@
+// app/components/Contact.tsx
 "use client";
 import React, { useState } from "react";
 import ScrollRevealWrapper from "./ScrollRevealWrapper";
@@ -6,42 +7,75 @@ const Contact: React.FC = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [website, setWebsite] = useState(""); // Honeypot field
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
-  const [error, setError] = useState(""); // State for error message
-  const [website, setWebsite] = useState("");
+  const [error, setError] = useState("");
+
+  // Client-side relevance check (matches server-side keywords)
+  const isRelevantMessage = (message: string): boolean => {
+    const keywords = [
+      "web design", "branding", "logo", "ui", "ux", "website", "portfolio", "graphic", "design", "development", "farouqk", "umar",
+      "marketing", "digital marketing", "content marketing", "seo", "search engine", "copywriting", "copywriter", "ad copy", "sales page",
+      "landing page", "email campaign", "social media", "content strategy", "brand messaging", "storytelling", "conversion", "call to action",
+      "newsletter", "blog post", "press release"
+    ];
+    const lowerMsg = message.toLowerCase();
+    return keywords.some((kw) => lowerMsg.includes(kw));
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setSuccess(false);
-    setError(""); // Reset error message
+    setError("");
 
-    const formData = {
-      name,
-      email,
-      message,
-      website,
-    };
+    // Client-side validation
+    if (!name || !email || !message) {
+      setError("All fields are required.");
+      setLoading(false);
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setError("Invalid email format.");
+      setLoading(false);
+      return;
+    }
+
+    if (message.length < 100) {
+      setError("Message must be at least 100 characters.");
+      setLoading(false);
+      return;
+    }
+
+    if (!isRelevantMessage(message)) {
+      setError("Message must be relevant to our services (e.g., web design, marketing).");
+      setLoading(false);
+      return;
+    }
+
+    const formData = { name, email, message, website };
 
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
+      const result = await response.json();
       if (response.ok) {
         setSuccess(true);
         setName("");
         setEmail("");
         setMessage("");
+        setWebsite("");
       } else {
-        setError("Failed to send message. Please try again.");
+        setError(result.error || "Failed to send message. Please try again.");
       }
-    } catch (error) {
+    } catch {
       setError("An error occurred. Please try again.");
     } finally {
       setLoading(false);
@@ -73,7 +107,7 @@ const Contact: React.FC = () => {
         >
           <ScrollRevealWrapper delay={500} origin="bottom" distance="20px" duration={1000}>
             <h3 className="text-[#2b2b2b] text-xl md:text-2xl font-bold mb-4 text-center">
-              Send Us a Message
+              Send Me a Message
             </h3>
           </ScrollRevealWrapper>
 
@@ -119,12 +153,15 @@ const Contact: React.FC = () => {
               <textarea
                 className="text-sm font-light shadow appearance-none border w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline resize-none"
                 id="message"
-                placeholder="Project Scope Brief. e.g... We want a simple website that has..."
+                placeholder="Project Scope Brief. e.g., We want a simple website that has..."
                 rows={5}
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 required
               />
+              <p className="text-gray-500 text-xs mt-1">
+                {message.length}/100 characters (minimum)
+              </p>
             </div>
           </ScrollRevealWrapper>
 
