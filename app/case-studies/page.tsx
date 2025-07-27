@@ -25,10 +25,10 @@ const caseStudies = [
 	},
   	{
 		id: 3,
-		title: "Pixel Forge",
-		image: "/Pixelforge.png",
+		title: "Outbound Operators",
+		image: "/Outbound Operators Landing Page.png", // Update image path if needed
 		description:
-			"A Wix demo showcasing a sleek branding agency landing page—crafted to highlight how businesses can elevate their identity.",
+			"Collaborated with Ronen Pessar of Outbound Operators to build a website that boosts outbound sales with precision.",
 	},
 	{
 		id: 4,
@@ -58,6 +58,13 @@ const caseStudies = [
   //   description:
   //     "Designed a warm, inviting Wix demo for a child care center—showcasing a nurturing space for infants and children.",
   // },
+    // 	{
+	// 	id: 8,
+	// 	title: "Pixel Forge",
+	// 	image: "/Pixelforge.png",
+	// 	description:
+	// 		"A Wix demo showcasing a sleek branding agency landing page—crafted to highlight how businesses can elevate their identity.",
+	// },
 ];
 
 export default function Home() {

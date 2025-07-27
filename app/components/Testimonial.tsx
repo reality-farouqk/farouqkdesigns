@@ -20,6 +20,12 @@ I highly recommend Umar to anyone looking for a talented, reliable designer who 
       image: '/isreal-anga.jpg',
       name: 'Isreal Anga - CEO@ParanTechWater',
     },
+    {
+      id: 3,
+      text: `“I could not be more satisfied with the job and the work that Umar has done. He’s an incredible designer, does a really fantastic job putting detailed effort into every element of the website. I would highly, highly recommend you work with him.”`,
+      image: '/ronen-pessar.png', // Add the correct image path for Ronen Passar
+      name: 'Ronen Passar - Co-Founder, Outbound Operators',
+    },
   ];
 
   const [expanded, setExpanded] = useState<{ [key: number]: boolean }>({});

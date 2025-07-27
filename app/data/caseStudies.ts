@@ -148,44 +148,70 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     slug: 3,
-    site_url: "https://mailafiyaumarsulai.wixstudio.io/pixelforge",
-    title: "Pixel Forge – Branding Agency Landing Page",
-    description:
-      "Pixel Forge was a Wix demo project created for a monthly web design challenge, showcasing a sleek, high-impact landing page for a branding agency. The goal was to design a page that effectively communicates brand strategy, creativity, and business growth.",
+    site_url: "https://outboundoperators.com/",
+    title: "Outbound Operators – Website Redesign & Launch",
+    description: `
+      I collaborated with Ronen Pessar, co-founder of Outbound Operators, to create a website that empowers businesses to optimize their outbound sales strategies with precision and efficiency. Taking a strategic and communicative approach, I transformed their online presence to reflect their mission of delivering high-impact, results-driven sales solutions. Ronen’s glowing recommendation highlights the seamless process and exceptional outcome: “I could not be more satisfied with the job and the work that Umar has done. I would highly, highly recommend you work with him.”
+    `,
     sections: [
       {
         headline: "Strategy & Design Process",
         description: `
-            <p>A branding agency needs a polished, visually striking online presence. 
-            <br/> 
-            I focused on:</p>
+          <p>Outbound Operators’ original website lacked the clarity and structure needed to showcase their expertise in outbound sales solutions. I conducted an in-depth analysis of their brand, target audience, and business goals to craft a user-centric platform that drives engagement and conversions.</p>
+          <br/>
+          <strong>Key improvements included:</strong>
+          <ul style="list-style-type: disc; margin-left: 24px">
+            <li><strong>Clearer Messaging</strong> – Refined copy to emphasize Outbound Operators’ mission of helping businesses scale through effective outbound sales strategies without overwhelming complexity.</li>
             <br/>
-            <ul style="list-style-type: disc; margin-left: 24px">
-              <li><strong>Minimalist yet bold aesthetics</strong>– A clean layout with striking typography and visuals.</li>
-              <br/>
-              <li><strong>Clear messaging hierarchy</strong> – Ensuring visitors instantly grasp the agency’s value.</li>
-              <br/>
-              <li><strong>Seamless navigation</strong>– Smooth user flow from introduction to services and contact.</li>
-            </ul>
-            `,
-        video: "/PixelForge Web design Preview.mp4",
+            <li><strong>Simplified Navigation</strong> – Streamlined the menu (Home, About, Services, Case Studies, Contact) for an intuitive user experience.</li>
+            <br/>
+            <li><strong>Engaging Visuals</strong> – Designed a professional, results-oriented interface with bold visuals and compelling CTAs (e.g., consultation booking, resource downloads).</li>
+          </ul>
+        `,
+        video: "/outboundoperators.mp4"
       },
       {
-        headline: "Key Features",
+        headline: "Elevating Brand Presence",
         description: `
-              <ul style="list-style-type: disc; margin-left: 24px">
-                <li><strong>Strong hero section</strong> with an impactful headline and CTA.</li>
-                <br/>
-                <li><strong>Service breakdown</strong> highlighting key branding solutions.</li>
-                <br/>
-                <li><strong>Mobile-first responsive design</strong> for a seamless experience across devices.</li>
-              </ul>
-              `,
+          <p>To align the website with Outbound Operators’ brand identity, I introduced:</p>
+          <ul style="list-style-type: disc; margin-left: 24px">
+            <li>A sleek, professional aesthetic that resonates with B2B clients and sales leaders.</li>
+            <br/>
+            <li>Consistent typography and color schemes for enhanced readability and brand cohesion.</li>
+            <br/>
+            <li>Two hero image buttons (“SALES STRATEGY CONSULTING” and “OUTBOUND TRAINING”) to guide users to core services.</li>
+            <br/>
+            <li>A lead-capturing contact form to streamline inquiries and consultation requests without clogging Ronen’s schedule.</li>
+          </ul>
+        `,
       },
       {
-        headline: "The Winning Edge",
-        description:
-          "This project was more than just a demo—it was a proof of concept that a well-structured, conversion-driven landing page can elevate any branding agency’s online presence.",
+        headline: "A Systematic, Scalable Approach",
+        description: `
+          <p>The website was built for impact and scalability, ensuring:</p>
+          <ul style="list-style-type: disc; margin-left: 24px">
+            <li><strong>Reusable Components</strong> – Modular design for easy updates to content (e.g., case studies, service offerings, testimonials).</li>
+            <br/>
+            <li><strong>Full Responsiveness</strong> – Seamless performance across desktop, tablet, and mobile devices.</li>
+            <br/>
+            <li><strong>Future-Proofing</strong> – Built-in flexibility for integrations like CRM tools, email marketing platforms, and lead magnets.</li>
+          </ul>
+          <p>I also configured the domain, implemented SEO fundamentals, and proposed a bi-weekly newsletter leveraging Outbound Operators’ industry insights to grow their email list—addressing their need for efficient lead generation without time-intensive processes.</p>
+        `,
+      },
+      {
+        headline: "The Client’s Words",
+        description: `
+          <p style="font-style: italic;">“I could not be more satisfied with the job and the work that Umar has done. He’s an incredible designer, does a really fantastic job putting detailed effort into every element of the website. I would highly, highly recommend you work with him.”</p>
+          <strong>— Ronen Pessar, Co-Founder, Outbound Operators</strong>
+          <p>Ronen’s endorsement reflects his satisfaction with my professional, communicative approach and the website’s alignment with Outbound Operators’ vision of empowering businesses through strategic outbound sales.</p>
+        `,
+      },
+      {
+        headline: "Impact",
+        description: `
+          <p>The redesigned Outbound Operators website positions the company as a trusted leader in outbound sales solutions. With streamlined messaging, optimized CTAs, and a scalable foundation, the site drives engagement, captures high-quality leads, and supports their growth initiatives, including upcoming training programs and consulting services. Ronen’s immediate positive feedback and strong recommendation underscore the success of this collaborative, high-impact project.</p>
+        `,
       },
     ],
   },
@@ -363,5 +389,47 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
   },
-  // Add other case studies here
+  // {
+  //   slug: 3,
+  //   site_url: "https://mailafiyaumarsulai.wixstudio.io/pixelforge",
+  //   title: "Pixel Forge – Branding Agency Landing Page",
+  //   description:
+  //     "Pixel Forge was a Wix demo project created for a monthly web design challenge, showcasing a sleek, high-impact landing page for a branding agency. The goal was to design a page that effectively communicates brand strategy, creativity, and business growth.",
+  //   sections: [
+  //     {
+  //       headline: "Strategy & Design Process",
+  //       description: `
+  //           <p>A branding agency needs a polished, visually striking online presence. 
+  //           <br/> 
+  //           I focused on:</p>
+  //           <br/>
+  //           <ul style="list-style-type: disc; margin-left: 24px">
+  //             <li><strong>Minimalist yet bold aesthetics</strong>– A clean layout with striking typography and visuals.</li>
+  //             <br/>
+  //             <li><strong>Clear messaging hierarchy</strong> – Ensuring visitors instantly grasp the agency’s value.</li>
+  //             <br/>
+  //             <li><strong>Seamless navigation</strong>– Smooth user flow from introduction to services and contact.</li>
+  //           </ul>
+  //           `,
+  //       video: "/PixelForge Web design Preview.mp4",
+  //     },
+  //     {
+  //       headline: "Key Features",
+  //       description: `
+  //             <ul style="list-style-type: disc; margin-left: 24px">
+  //               <li><strong>Strong hero section</strong> with an impactful headline and CTA.</li>
+  //               <br/>
+  //               <li><strong>Service breakdown</strong> highlighting key branding solutions.</li>
+  //               <br/>
+  //               <li><strong>Mobile-first responsive design</strong> for a seamless experience across devices.</li>
+  //             </ul>
+  //             `,
+  //     },
+  //     {
+  //       headline: "The Winning Edge",
+  //       description:
+  //         "This project was more than just a demo—it was a proof of concept that a well-structured, conversion-driven landing page can elevate any branding agency’s online presence.",
+  //     },
+  //   ],
+  // },
 ];

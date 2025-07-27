@@ -24,11 +24,11 @@ const CaseStudy: React.FC = () => {
     },
     {
       id: 3,
-      title: "Pixel Forge",
+      title: "Outbound Operators",
       caseStudyLink: "/case-studies/3",
       description:
-        "A Wix demo showcasing a sleek branding agency landing page—crafted to highlight how businesses can elevate their identity.",
-      image: "/Pixelforge.png",
+        "Collaborated with Ronen Pessar of Outbound Operators to build a website that boosts outbound sales with precision.",
+      image: "/Outbound Operators Landing Page.png",
     },
     {
       id: 4,
@@ -57,10 +57,18 @@ const CaseStudy: React.FC = () => {
     // {
     //   id: 7,
     //   title: "Child Care",
-    //   caseStudyLink: "/case-studies/3",
+    //   caseStudyLink: "/case-studies/7",
     //   description:
     //     "Designed a warm, inviting Wix demo for a child care center—showcasing a nurturing space for infants and children.",
     //   image: "/childscare.png",
+    // },
+    //     {
+    //   id: 8,
+    //   title: "Outbound Operators",
+    //   caseStudyLink: "/case-studies/8",
+    //   description:
+    //     "A Wix demo showcasing a dynamic outbound sales agency landing page—crafted to highlight how businesses can scale their sales with precision and efficiency.",
+    //   image: "/Outbound Operators.png",
     // },
   ];
 
