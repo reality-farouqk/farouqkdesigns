@@ -23,7 +23,7 @@ I highly recommend Umar to anyone looking for a talented, reliable designer who 
     {
       id: 3,
       text: `“I could not be more satisfied with the job and the work that Umar has done. He’s an incredible designer, does a really fantastic job putting detailed effort into every element of the website. I would highly, highly recommend you work with him.”`,
-      image: '/ronen-pessar.png', // Add the correct image path for Ronen Passar
+      image: '/ronen-pessar.png',
       name: 'Ronen Passar - Co-Founder, Outbound Operators',
     },
   ];
@@ -49,7 +49,12 @@ I highly recommend Umar to anyone looking for a talented, reliable designer who 
       <ScrollRevealWrapper className="mb-10" delay={300} origin="top" distance="20px" duration={700}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-5">
         {testimonials.map((testimonial) => (
-          <div key={testimonial.id} className="bg-white p-6 md:mx-11 shadow-lg shadow-[#CCF8FF] h-auto flex flex-col justify-between">
+          <div
+            key={testimonial.id}
+            className={`bg-white p-6 md:mx-11 shadow-lg shadow-[#CCF8FF] h-auto flex flex-col justify-between${
+              testimonial.id === 3 ? ' mt-12' : ''
+            }`}
+          >
             <p className="text-base font-light mb-4">
               {expanded[testimonial.id]
                 ? testimonial.text

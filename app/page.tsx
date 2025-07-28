@@ -1,6 +1,7 @@
 "use client";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import VideoTestimonial from "./components/VideoTestimonial";
 import SlideTextAnimation from "./components/SlideTextAnimation";
 import CaseStudy from "./components/CaseStudy";
 import ProblemSolution from "./components/Problem&Solution";
@@ -16,6 +17,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
+      <VideoTestimonial />
       <SlideTextAnimation />
       <CaseStudy />
       <ProblemSolution />
