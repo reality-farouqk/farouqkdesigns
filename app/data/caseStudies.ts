@@ -196,7 +196,7 @@ export const caseStudies: CaseStudy[] = [
             <br/>
             <li><strong>Future-Proofing</strong> – Built-in flexibility for integrations like CRM tools, email marketing platforms, and lead magnets.</li>
           </ul>
-          <p>I also configured the domain, implemented SEO fundamentals, and proposed a bi-weekly newsletter leveraging Outbound Operators’ industry insights to grow their email list—addressing their need for efficient lead generation without time-intensive processes.</p>
+          <p>I also implemented SEO fundamentals, make sure the website is in a good state and ready to scale.</p>
         `,
       },
       {
@@ -210,7 +210,7 @@ export const caseStudies: CaseStudy[] = [
       {
         headline: "Impact",
         description: `
-          <p>The redesigned Outbound Operators website positions the company as a trusted leader in outbound sales solutions. With streamlined messaging, optimized CTAs, and a scalable foundation, the site drives engagement, captures high-quality leads, and supports their growth initiatives, including upcoming training programs and consulting services. Ronen’s immediate positive feedback and strong recommendation underscore the success of this collaborative, high-impact project.</p>
+          <p>The redesigned Outbound Operators website positions the company as a trusted leader in outbound sales solutions. With streamlined messaging, optimized CTAs, and a scalable foundation, the site drives engagement, captures high-quality leads while educating their buyers & visitors, and supports their growth initiatives, including upcoming training programs and consulting services. Ronen’s immediate positive feedback and strong recommendation underscore the success of this collaborative, high-impact project.</p>
         `,
       },
     ],
