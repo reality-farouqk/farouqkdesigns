@@ -71,7 +71,7 @@ export default function RootLayout({
           `}
         </Script>
         {/* Clarity script tag */}
-        <script
+        {/* <script
           type="text/javascript"
           dangerouslySetInnerHTML={{
             __html: `
@@ -82,18 +82,18 @@ export default function RootLayout({
               })(window, document, "clarity", "script", "${"qdls91amcl"}");
             `,
           }}
-        />
+        /> */}
       </head>
       <body className={`${NeueMachina.className} min-h-screen px-5 md:px-12`}>
         <EthereumFix />
         <SpeedInsights />
         <Analytics />
         <ClarityTracker />
-        <ClientRouter>
+        {/* <ClientRouter> */}
           <main className="main max-w-screen-xl mx-auto my-5 lg:my-6 border border-gray-400">
             {children}
           </main>
-        </ClientRouter>
+        {/* </ClientRouter> */}
       </body>
     </html>
   );
