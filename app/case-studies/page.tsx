@@ -1,4 +1,3 @@
-"use client";
 import "../globals.css";
 import Header from "../components/Header";
 import Contact from "../components/Contact";
@@ -7,6 +6,12 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 import Image from "next/image";
 import ScrollRevealWrapper from "../components/ScrollRevealWrapper";
+
+export const metadata = {
+  alternates: {
+	canonical: 'https://farouqkdesigns.com/case-studies' // <-- replace with your canonical URL
+  }
+}
 
 const caseStudies = [
 	{

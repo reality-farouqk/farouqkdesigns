@@ -7,10 +7,9 @@ import { Metadata } from 'next';
 import ScrollRevealWrapper from "../../components/ScrollRevealWrapper";
 import { caseStudies } from "../../data/caseStudies";
 
-// Define proper types for Next.js dynamic route parameters
 type PageProps = {
   params: Promise<{ slug: string }>;
-  searchParams: Promise<{ [key: string]: string | string[] | undefined }>; // Fix: Wrap in Promise
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 };
 
 // Generate metadata for the page
@@ -20,16 +19,45 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     (study) => study.slug === Number(resolvedParams.slug)
   );
 
+  const slugStr = resolvedParams.slug;
+  const canonical = `https://farouqkdesigns.com/case-studies/${slugStr}`;
+
+  const title = caseStudy ? `Case Study - ${caseStudy.title}` : 'Case Study Not Found';
+
+  const MAX_DESC = 143;
+  let description = caseStudy?.description || 'Detailed case study from FarouqKDesigns';
+  if (description.length > MAX_DESC) {
+    // keep total length <= MAX_DESC, add ellipsis if truncated
+    description = description.slice(0, MAX_DESC - 1).trimEnd() + '…';
+  }
+
   return {
-    title: caseStudy ? `Case Study - ${caseStudy.title}` : 'Case Study Not Found',
-    description: caseStudy?.description || 'Case study details',
+    title,
+    description,
+    alternates: {
+      canonical
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      // images: caseStudy?.image ? [{ url: caseStudy.image, alt: caseStudy.title }] : [],
+      siteName: 'FarouqKDesigns',
+      type: 'website'
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      // images: caseStudy?.image ? [caseStudy.image] : []
+    }
   };
 }
 
 // Page component with correct typing
 export default async function CaseStudyPage({ params, searchParams }: PageProps) {
   const resolvedParams = await params;
-  const resolvedSearchParams = await searchParams; // Await searchParams to satisfy type
+  const resolvedSearchParams = await searchParams;
   const { slug } = resolvedParams;
 
   const caseStudy = caseStudies.find(
