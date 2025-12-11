@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   );
 
   const slugStr = resolvedParams.slug;
-  const canonical = `https://farouqkdesigns.com/case-studies/${slugStr}`;
+  const canonical = `https://www.farouqkdesigns.com/case-studies/${slugStr}`;
 
   const title = caseStudy ? `Case Study - ${caseStudy.title}` : 'Case Study Not Found';
 
