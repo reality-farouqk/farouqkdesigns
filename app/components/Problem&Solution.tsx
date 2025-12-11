@@ -23,9 +23,9 @@ const ProblemSolution: React.FC = () => {
         </div>
         <div className="w-full lg:w-3/5 text-white p-4 md:p-8">
           <ScrollRevealWrapper delay={600} origin="right" distance="30px" duration={1200}>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-5 capitalize text-wrap">
+            <h2 className="text-4xl lg:text-6xl font-bold mb-5 capitalize text-wrap">
               You Deserve a World-Class Website
-            </h1>
+            </h2>
           </ScrollRevealWrapper>
 
           <ScrollRevealWrapper delay={800} origin="right" distance="30px" duration={1200}>

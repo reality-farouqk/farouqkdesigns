@@ -43,7 +43,7 @@ I highly recommend Umar to anyone looking for a talented, reliable designer who 
     <section className="text-[#2b2b2b] bg-cover bg-center px-5 py-24 md:px-12" style={{ backgroundImage: 'url(/Testimonial-bg.png)' }}>
       <ScrollRevealWrapper className="mb-10" delay={200} origin="top" distance="20px" duration={700}>
 
-      <h1 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold capitalize mb-12">See What Other Clients Are Saying</h1>
+      <h2 className="text-3xl md:text-4xl lg:text-5xl text-center font-bold capitalize mb-12">See What Other Clients Are Saying</h2>
       
       </ScrollRevealWrapper>
       <ScrollRevealWrapper className="mb-10" delay={300} origin="top" distance="20px" duration={700}>

@@ -29,8 +29,13 @@ const NeueMachina = localFont({
 });
 
 export const metadata = {
-  title: "Farouqk Designs - Web design & Marketing Agency",
-  description: "Crafting Designs That Speak & Words That Sell.",
+  title: 'Crafting Websites & Copy That Sell | Farouqk Designs',
+  description: 'Web design and copywriting for founders & entrepreneurs — custom, high-conversion sites with simple pricing, clear deliverables and full ownership.',
+  
+  alternates: {
+      canonical: 'https://www.farouqkdesigns.com/',
+    },
+
   icons: {
     icon: [
       {
@@ -46,6 +51,28 @@ export const metadata = {
         type: 'image/ico',
       },
     ],
+  },
+
+  openGraph: {
+    title: 'Crafting Websites & Copy That Sell | Farouqk Designs',
+  description: 'Web design and copywriting for founders & entrepreneurs — custom, high-conversion sites with simple pricing, clear deliverables and full ownership.',
+    url: 'https://www.farouqkdesigns.com/',
+    siteName: 'Farouqk Designs',
+    
+    images: [
+      {
+        url: '/public/farouqkdesignslogo-transparent.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Farouqk Designs logo and tagline',
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    site: '@farouqkdesigns',
+    creator: '@farouqkdesigns',
   },
 };
 

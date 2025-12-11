@@ -83,9 +83,9 @@ const CaseStudy: React.FC = () => {
         distance="20px"
         duration={700}
       >
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-center">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-8 text-center">
           Case Studies
-        </h1>
+        </h2>
       </ScrollRevealWrapper>
 
       <ScrollRevealWrapper

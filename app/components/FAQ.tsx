@@ -23,9 +23,9 @@ const FAQ: React.FC = () => {
     <section className="text-[#2b2b2b] bg-white px-5 py-24 md:px-12">
       <div className="text-center mb-5 md:mb-10">
         <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             Got Questions? I Have Answers.
-          </h1>
+          </h2>
         </ScrollRevealWrapper>
       </div>
 

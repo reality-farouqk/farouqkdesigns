@@ -31,7 +31,7 @@ const Process: React.FC = () => {
           <h2 className="text-base font-semibold md:text-lg uppercase md:font-normal mb-4">Effortless process</h2>
         </ScrollRevealWrapper>
         <ScrollRevealWrapper delay={400} origin="top" distance="30px" duration={1200}>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold capitalize mb-5">No work on your end</h1>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold capitalize mb-5">No work on your end</h2>
         </ScrollRevealWrapper>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">

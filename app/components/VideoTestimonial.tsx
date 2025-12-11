@@ -38,7 +38,7 @@ export default function VideoTestimonial() {
           </div>
         </ScrollRevealWrapper>
         <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={800}>
-          <h1
+          <h2
             style={{
               color: "#fff",
               fontSize: "clamp(28px, 6vw, 48px)",
@@ -50,7 +50,7 @@ export default function VideoTestimonial() {
             }}
           >
             A professional for a reason
-          </h1>
+          </h2>
         </ScrollRevealWrapper>
         <ScrollRevealWrapper delay={400} origin="bottom" distance="20px" duration={800}>
           <div style={{ maxWidth: "360px", margin: "0 auto" }}>

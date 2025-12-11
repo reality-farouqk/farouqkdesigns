@@ -89,9 +89,9 @@ const Contact: React.FC = () => {
     >
       <div className="text-center mb-8 max-w-[600px] mx-auto">
         <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
-          <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 capitalize">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 capitalize">
             Get a world-class website and a constant roll in of clients
-          </h1>
+          </h2>
         </ScrollRevealWrapper>
         <ScrollRevealWrapper delay={400} origin="top" distance="20px" duration={1000}>
           <h2 className="text-base md:text-lg font-normal text-white capitalize">
