@@ -55,7 +55,6 @@ export default function VideoTestimonial() {
         <ScrollRevealWrapper delay={400} origin="bottom" distance="20px" duration={800}>
           <div style={{ maxWidth: "360px", margin: "0 auto" }}>
             <video
-              autoPlay
               controls
               width="100%"
               style={{ borderRadius: "12px", boxShadow: "0 4px 24px rgba(0,0,0,0.15)" }}
