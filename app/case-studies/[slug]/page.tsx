@@ -22,18 +22,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const slugStr = resolvedParams.slug;
   const canonical = `https://www.farouqkdesigns.com/case-studies/${slugStr}`;
 
-  const title = caseStudy ? `Case Study - ${caseStudy.title}` : 'Case Study Not Found';
+  const title = caseStudy ? `Case Study: ${caseStudy.title} | Web Design & Copywriting` : 'Case Study Not Found';
 
   const MAX_DESC = 143;
-  let description = caseStudy?.description || 'Detailed case study from FarouqKDesigns';
+  let description = caseStudy?.description || 'Detailed case study showcasing web design and copywriting results from FarouqKDesigns';
   if (description.length > MAX_DESC) {
-    // keep total length <= MAX_DESC, add ellipsis if truncated
     description = description.slice(0, MAX_DESC - 1).trimEnd() + '…';
   }
 
   return {
     title,
     description,
+    keywords: `case study, ${caseStudy?.title || 'web design'}, web design results, conversion optimization`,
+    metadataBase: new URL('https://www.farouqkdesigns.com'),
     alternates: {
       canonical
     },
@@ -41,15 +42,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title,
       description,
       url: canonical,
-      // images: caseStudy?.image ? [{ url: caseStudy.image, alt: caseStudy.title }] : [],
-      siteName: 'FarouqKDesigns',
-      type: 'website'
+      siteName: 'Farouqk Designs',
+      type: 'article',
+      authors: ['Umar Farouqk'],
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      // images: caseStudy?.image ? [caseStudy.image] : []
     }
   };
 }

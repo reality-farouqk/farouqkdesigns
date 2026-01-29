@@ -2,6 +2,7 @@
 import "./globals.css";
 import localFont from "next/font/local";
 import ClientRouter from "./components/ClientRouter";
+import SchemaMarkup from "./components/SchemaMarkup";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import EthereumFix from "./components/EthereumFix";
@@ -29,8 +30,21 @@ const NeueMachina = localFont({
 });
 
 export const metadata = {
-  title: 'Crafting Websites & Copy That Sell | Farouqk Designs',
-  description: 'Web design and copywriting for founders & entrepreneurs — custom, high-conversion sites with simple pricing, clear deliverables and full ownership.',
+  metadataBase: new URL('https://www.farouqkdesigns.com'),
+  title: 'High-Converting Websites for Founders | Farouqk Designs',
+  description: 'Custom web design and conversion-optimized website for founders & entrepreneurs. Get high-converting landing pages, business websites, and marketing setup.',
+  keywords: 'web design, copywriting, landing page design, conversion optimization, founder websites, startup web design, business websites, website copy',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   
   alternates: {
       canonical: 'https://www.farouqkdesigns.com/',
@@ -54,17 +68,19 @@ export const metadata = {
   },
 
   openGraph: {
-    title: 'Crafting Websites & Copy That Sell | Farouqk Designs',
-  description: 'Web design and copywriting for founders & entrepreneurs — custom, high-conversion sites with simple pricing, clear deliverables and full ownership.',
+    title: 'Web Design & Copywriting for Founders | Farouqk Designs',
+    description: 'High-converting websites and landing pages with clear scope, simple pricing, and full ownership. For founders who want results fast.',
     url: 'https://www.farouqkdesigns.com/',
     siteName: 'Farouqk Designs',
-    
+    locale: 'en_US',
+    type: 'website',
     images: [
       {
-        url: '/public/farouqkdesignslogo-transparent.svg',
+        url: '/farouqkdesignslogo-transparent.svg',
         width: 1200,
         height: 630,
-        alt: 'Farouqk Designs logo and tagline',
+        alt: 'Farouqk Designs - Web Design & Copywriting for Founders',
+        type: 'image/svg+xml',
       },
     ],
   },
@@ -73,8 +89,10 @@ export const metadata = {
     card: 'summary_large_image',
     site: '@farouqkdesigns',
     creator: '@farouqkdesigns',
+    title: 'Web Design & Copywriting for Founders | Farouqk Designs',
+    description: 'High-converting websites and landing pages with clear scope, simple pricing, and full ownership.',
   },
-};
+};;
 
 export default function RootLayout({
   children,
@@ -84,6 +102,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
+        <SchemaMarkup />
         {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-S48SW6XPQV"
