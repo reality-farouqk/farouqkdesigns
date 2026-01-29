@@ -56,7 +56,7 @@ export async function POST(req: Request) {
     // Message length and relevance validation
     if (message.length < 50 || !isRelevantMessage(message)) {
       return NextResponse.json(
-        { error: "Message must be at least 100 characters and relevant to our services." },
+        { error: "Message must be at least 50 characters and relevant to our services." },
         { status: 400 }
       );
     }
