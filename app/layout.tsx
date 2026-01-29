@@ -130,7 +130,7 @@ export default function RootLayout({
           }}
         /> */}
       </head>
-      <body className={`${NeueMachina.className} min-h-screen px-5 md:px-12`}>
+      <body className={`${NeueMachina.className} min-h-screen px-5 md:px-12`} suppressHydrationWarning>
         <EthereumFix />
         <SpeedInsights />
         <Analytics />
