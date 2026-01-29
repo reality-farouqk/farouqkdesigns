@@ -5,7 +5,7 @@ import Link from "next/link";
 const CTA: React.FC = () => {
   return (
     <Link href="/#contact">
-      <button className={styles["cta-button"]}>Let&apos;s Collaborate</button>
+      <button className={styles["cta-button"]}>Get Your Website Built</button>
     </Link>
   );
 };

@@ -16,7 +16,7 @@ const FAQ: React.FC = () => {
     { question: 'How long does it take to design and launch a website?', answer: 'The timeline depends on the complexity of your project, but most websites are completed within 1–4 weeks. I prioritize efficiency while ensuring high-quality results.' },
     { question: 'What makes your services different from other web designers?', answer: 'I combine sharp design skills with proven copywriting techniques to create websites that look great and perform even better. My focus is on building sites that drive conversions, reflect your brand, and meet your specific needs. Not shiny websites with no results.' },
     { question: 'Do you offer post-launch support?', answer: 'Yes! I provide post-launch support to ensure your website runs smoothly. This includes minor updates, performance checks, marketing support and guidance on how to manage your site if needed.' },
-    { question: 'Why do you watch Anime?', answer: 'Anime helps fuel my creativity with its rich storytelling, stunning visuals, and profound philosophical themes. It challenges conventional thinking and inspires me to create designs and copy that resonate on a deeper level. The attention to detail and emotional depth in anime remind me to blend aesthetics with meaning in everything I craft.' },
+    // { question: 'Why do you watch Anime?', answer: 'Anime helps fuel my creativity with its rich storytelling, stunning visuals, and profound philosophical themes. It challenges conventional thinking and inspires me to create designs and copy that resonate on a deeper level. The attention to detail and emotional depth in anime remind me to blend aesthetics with meaning in everything I craft.' },
   ];
 
   return (

@@ -90,12 +90,12 @@ const Contact: React.FC = () => {
       <div className="text-center mb-8 max-w-150 mx-auto">
         <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 capitalize">
-            Get a world-class website and a constant roll in of clients
+          Ready to Build a Website That Works?
           </h2>
         </ScrollRevealWrapper>
         <ScrollRevealWrapper delay={400} origin="top" distance="20px" duration={1000}>
           <h2 className="text-base md:text-lg font-normal text-white capitalize">
-            Let&apos;s Collaborate to bring your vision to life.
+            If you’re a founder who wants a professional website or landing page without the usual back-and-forth, let’s get started.
           </h2>
         </ScrollRevealWrapper>
       </div>
@@ -183,7 +183,7 @@ const Contact: React.FC = () => {
                 type="submit"
                 disabled={loading}
               >
-                {loading ? "Sending..." : "Collaborate Now"}
+                {loading ? "Sending..." : "Get Your Website Built"}
               </button>
             </div>
           </ScrollRevealWrapper>

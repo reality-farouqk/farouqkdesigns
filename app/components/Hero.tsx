@@ -18,21 +18,20 @@ const Hero: React.FC = () => {
 
         <ScrollRevealWrapper delay={400} origin="left" distance="30px" duration={1200}>
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#060d0d]">
-            Crafting Designs That Speak & Words That Sell.
+High-Converting Websites for Founders Who Want FastResults
           </h1>
         </ScrollRevealWrapper>
 
         <ScrollRevealWrapper delay={600} origin="left" distance="30px" duration={1200}>
           <h2 className="text-lg font-medium mb-4 text-zinc-700">
-            Web Designer & Copywriter blending creativity, strategy, and
-            authenticity to build digital experiences that matter.
+I design and build conversion-focused websites and landing pages that help founders attract leads, build trust, and close clients — without endless revisions or delays.
           </h2>
         </ScrollRevealWrapper>
 
         <ScrollRevealWrapper delay={800} origin="bottom" distance="20px" duration={1000}>
           <CTA />
           <h6 className="text-sm mt-4 font-bold">
-            Simple Pricing. Clear Deliverables. Full Site Ownership
+Design. Copy. Launch. In days, not weeks.
           </h6>
         </ScrollRevealWrapper>
       </div>

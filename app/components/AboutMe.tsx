@@ -14,15 +14,11 @@ const AboutMe: React.FC = () => {
 
           <ScrollRevealWrapper delay={600} origin="left" distance="30px" duration={1200}>
             <p className="text-base mb-5">
-              I&apos;m Umar Sulaiman Mailafiya (Farouqk), a passionate designer and writer who turns ideas into digital realities. Whether crafting intuitive websites or compelling copy, I&apos;m driven by creativity, perseverance, and faith.
-              <br /><br />
-              When I&apos;m not building stunning websites that convert, you might find me strategizing my next victory in Call of Duty, watching intuitive anime that challenges my brain cells, or diving into self-improvement books on finance and skill acquisition.
-              <br /><br />
-              My core values are perseverance, consistency, and honesty. Building long-term partnerships and seeing my clients win is my ultimate win.
-              <br /><br />
-              Passionate about writing that connects with my audience on a deeper level.
-              <br /><br />
-              Ready to chat about your website project?
+I’m Farouqk — a web designer and copywriter focused on building websites that don’t just look good, but actually work.
+
+I help founders and entrepreneurs turn ideas into clean, high-converting websites that communicate clearly, build trust, and drive action.
+
+My approach is simple: clarity over clutter, speed over perfection, and results over trends.
               <br /><br />
               Let&apos;s discuss your ideas.
             </p>
