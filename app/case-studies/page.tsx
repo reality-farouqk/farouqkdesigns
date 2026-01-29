@@ -9,7 +9,7 @@ import ScrollRevealWrapper from "../components/ScrollRevealWrapper";
 
 export const metadata = {
   alternates: {
-	canonical: 'https://www.farouqkdesigns.com/case-studies' // <-- replace with your canonical URL
+	canonical: 'https://www.farouqkdesigns.com/case-studies'
   }
 }
 
