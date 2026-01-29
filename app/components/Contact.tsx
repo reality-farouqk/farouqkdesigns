@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [website, setWebsite] = useState(""); // Honeypot field
+  const [website, setWebsite] = useState(""); 
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
@@ -87,7 +87,7 @@ const Contact: React.FC = () => {
       id="contact"
       className="bg-cover bg-center p-8 bg-[#42AFC0] px-5 py-24 md:px-12"
     >
-      <div className="text-center mb-8 max-w-[600px] mx-auto">
+      <div className="text-center mb-8 max-w-150 mx-auto">
         <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4 capitalize">
             Get a world-class website and a constant roll in of clients
