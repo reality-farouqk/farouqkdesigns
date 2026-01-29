@@ -160,7 +160,7 @@ const Contact: React.FC = () => {
                 required
               />
               <p className="text-gray-500 text-xs mt-1">
-                {message.length}/100 characters (minimum)
+                {message.length}/50 characters (minimum)
               </p>
             </div>
           </ScrollRevealWrapper>

@@ -5,7 +5,7 @@ import ClientRouter from "./components/ClientRouter";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/react";
 import EthereumFix from "./components/EthereumFix";
-import ClarityTracker from "./components/ClarityTracker";
+// import ClarityTracker from "./components/ClarityTracker";
 import Script from 'next/script';
 
 const NeueMachina = localFont({
@@ -115,7 +115,7 @@ export default function RootLayout({
         <EthereumFix />
         <SpeedInsights />
         <Analytics />
-        <ClarityTracker />
+        {/* <ClarityTracker /> */}
         {/* <ClientRouter> */}
           <main className="main max-w-screen-xl mx-auto my-5 lg:my-6 border border-gray-400">
             {children}
