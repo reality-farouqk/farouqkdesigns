@@ -63,7 +63,7 @@ Design. Copy. Launch. In days, not weeks.
                 className="w-full h-auto"
               />
             </span>
-            <p className="text-center mt-4">Hey, I&apos;m Umar Farouqk.</p>
+            <p className="text-center mt-4">Hi, I&apos;m Umar Farouqk.</p>
           </div>
         </ScrollRevealWrapper>
       </div>
