@@ -14,6 +14,6 @@ export default function robots() {
         // disallow: '/cgi-bin/',
       },
     ],
-    sitemap: 'https://farouqkdesigns.com/sitemap.xml',
+    sitemap: 'https://www.farouqkdesigns.com/sitemap.xml',
   }
 }
