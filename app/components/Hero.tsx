@@ -10,11 +10,11 @@ const Hero: React.FC = () => {
       style={{ backgroundImage: "url(/Hero&AboutSection-bg.png)" }}
     >
       <div className="w-full lg:w-3/4 mb-8 md:mb-0">
-        <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
+        {/* <ScrollRevealWrapper delay={200} origin="top" distance="20px" duration={1000}>
           <h3 className="text-sm lg:text-base uppercase font-normal mb-4">
             For Founders & Entrepreneurs
           </h3>
-        </ScrollRevealWrapper>
+        </ScrollRevealWrapper> */}
 
         <ScrollRevealWrapper delay={400} origin="left" distance="30px" duration={1200}>
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#060d0d]">
