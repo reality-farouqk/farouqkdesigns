@@ -8,6 +8,23 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: 'var(--color-primary)',
+        accent: 'var(--color-accent)',
+        bg: 'var(--color-bg)',
+        fg: 'var(--color-foreground)',
+        header: 'var(--color-header)',
+        dark: 'var(--color-dark)',
+        muted: 'var(--color-muted)',
+        surface: 'var(--color-surface)',
+        danger: 'var(--color-danger)',
+        dangerDark: 'var(--color-danger-dark)',
+        link: 'var(--color-link)',
+        hoverBlue: 'var(--color-hover-blue)',
+        footer: 'var(--color-footer)',
+        shadowAccent: 'var(--color-shadow-accent)',
+        peach: 'var(--color-peach)'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
